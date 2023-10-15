@@ -1,0 +1,30 @@
+.menuButtonAdmin{
+  margin-top: 30px;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  .selectIcon{
+    display: inline;
+    position: relative;
+    top: 10px;
+    font-size: 24px;
+    left: 4px;
+  }
+  span{
+    position: relative;
+    top: 5px;
+    margin-right: 15px;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+  }
+  color: #FFFFFF;
+}
+.menuButtonAdmin:hover{
+  color: #014F48;
+}

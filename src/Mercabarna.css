@@ -1,0 +1,309 @@
+.Merca {
+    text-align: center;
+    display: grid;
+    align-self: center;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+}
+
+.modal{
+    width: 90%;
+    box-shadow: 1px 1px 10px 1px black;
+    border-radius: 20px;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    height: auto;
+    top: 10%; left: 0; right: 0;
+}
+.modalForNewProduct{
+    width: 90%;
+    box-shadow: 1px 1px 10px 1px black;
+    border-radius: 20px;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    height: 500px;
+    top: 10%; left: 0; right: 0;
+    background: #FFFFFF;
+}
+
+.modalWindow{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    max-height: 700px;
+    align-items: center;
+    padding-bottom: 30px;
+    background: whitesmoke;
+    overflow: auto;
+}
+
+.modalWindowDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.modalWindowAdd{
+
+}
+
+.prodItems{
+    display: grid;
+    grid-template-columns: 1fr 4fr repeat(2, 1fr) 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-items: center;
+    border: 1px solid black;
+    height: 100px;
+    border-bottom: none;
+    font-weight: 500;
+    align-self: center;
+    width: 100%;
+}
+.imageMiniTest{
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttonsModelWindow{
+    margin-top: -25px;
+    margin-bottom: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.addItemButtonModal{
+    margin-top: 15px;
+}
+.addItemButtonModal:hover{
+    color: grey;
+}
+addItemButtonModal1{
+    top: 0;
+    right: 0;
+    left: 0;
+    background: red;
+}
+.infoSide{
+    white-space: pre-wrap;
+    width: auto;
+    background: whitesmoke;
+    word-break: break-all;
+}
+
+
+.changeArrow{
+    margin-top: -25px;
+    font-size: 20px;
+}
+
+.backArrow{
+    position: absolute;
+    left: -12.5px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 50px;
+    background: whitesmoke;
+}
+
+.arrowBackToMain{
+    position: absolute;
+    left: 20px;
+    font-size: 20px;
+    top: 10px;
+    z-index: 0;
+}
+
+.arrowTo{
+    font-size: 32px;
+}
+.arrowRight{
+    position: absolute;
+    right: 20px;
+    top: 45%;
+    z-index: 0;
+}
+.arrowLeft{
+    position: absolute;
+    left: 20px;
+    top: 45%;
+    z-index: 0;
+}
+
+.openArrow{
+    position: absolute;
+    font-size: 20px;
+    right: 0px;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: whitesmoke;
+}
+
+.openArrowModal{
+    position: absolute;
+    font-size: 20px;
+    left: 5px;
+    top: 0px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background: whitesmoke;
+}
+
+.side{
+    position: absolute;
+    right: 0;
+    width: 30vh;
+    min-width: 150px;
+    background: whitesmoke;
+    height: 100%;
+    z-index: 5;
+    opacity: 0.93;
+}
+.input1{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 15px;
+    text-align: center;
+    width: 200px;
+}
+.inputChange{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 42.5px;
+    text-align: center;
+    width: 200px;
+}
+
+.container{
+    display: grid;
+    align-self: center;
+    grid-template-columns: 1fr 0.5fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.block1{
+    height: 75px;
+    border: 0.5px solid grey;
+}
+
+.pavP{
+    height: 125px;
+    border: 0.5px solid grey;
+    grid-area: 4 / 2 / 4 / 3;
+}
+
+.pav{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pav2{
+    width: 100px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.pavP4{
+
+}
+
+.buttonPavP{
+    width: 25px;
+    height: 55px;
+    border: 0.5px solid black;
+
+}
+
+.buttonPavPcenter{
+    width: 50px;
+    height: 50px;
+    border: 0.5px solid black;
+
+}
+
+
+.pavPcenter{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.buttonPav{
+    text-align: center;
+    margin-top: 1px;
+    font-size: 10px;
+    height: 25px;
+    border: 0.5px solid grey;
+}
+
+.div1 {
+    grid-area: 1 / 2 / 4 / 3;
+    border: 0.5px solid grey;
+}
+
+.last70Button{
+    height: 100%;
+    width: 50%;
+}
+
+.last70ButtonUnder{
+    height: 100%;
+    width: 33%;
+    height: 30px;
+    width: 50px;
+}
+.under{
+    display: flex;
+    margin-bottom: 25px;
+    justify-content: space-around;
+}
+
+.addNewProd{
+    position: absolute;
+}
+
+
+#inputForCreateNewProd {
+    width: 150px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.closeButtonForAddNewProd{
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+.buttonForAddNewProd{
+    margin-top: 20px;
+    width: 150px;
+}
+
+.buttonForAddNewProd:focus{
+    background: green;
+}

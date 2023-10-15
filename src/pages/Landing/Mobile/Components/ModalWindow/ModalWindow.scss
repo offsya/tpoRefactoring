@@ -1,0 +1,1962 @@
+.modal{
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input:focus{
+    outline: none;
+  }
+  .profitModal{
+    height: 475px;
+    width: 775px;
+
+    background: #FFFFFF;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    position: relative;
+    .acceptButtonModal{
+      position: absolute;
+      bottom: 26px;
+      right: 66px;
+      width: 200px;
+      height: 57px;
+      background: #5FC56E;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+    }
+    .calendForModal{
+      padding-right: 0px;
+      padding-left: 0px;
+      height: 200px;
+      margin: 0px auto;
+      max-width: 381px;
+      height: 258px;
+      border: 1px solid #969696;
+      border-radius: 10px;
+      background: #FFFFFF;
+      margin-top: 27px;
+
+      .calendDaysModalMobile{
+
+        .calendDaysThree{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 10px;
+          font-family: 'Montserrat';
+          margin-left: 5px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 17px;
+          width: 100%;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+        .calendDaysNumbersThree{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 5px;
+          margin-left: 3px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 17px;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+        .calendDays{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 10px;
+          margin-left: 15px;
+          margin-right: 15px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 17px;
+          width: 100%;
+          color: #000000;
+        }
+        .calendDaysNumbers{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 5px;
+          margin-left: 3px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 17px;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+
+
+      }
+      .calendMounth{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 16px;
+        margin-left: 14px;
+        display: flex;
+        align-items: center;
+
+        color: #383838;
+      }
+      .changeWeeks{
+        height: 43px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px 10px;
+        margin-top: 19px;
+        background: #F5F4F2;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .calendModalMobile{
+    margin-top: -150px;
+    width: 300px;
+    height: 390px;
+    background: #FFFFFF;
+    padding-left: 22px;
+    padding-right: 23px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    .acceptButton{
+      position: relative;
+      bottom: 0px;
+      width: 245px;
+      height: 50px;
+      background: #5FC56E;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+    }
+    .calendForModal{
+      padding-right: 0px;
+      padding-left: 0px;
+      height: 200px;
+      margin: 0px;
+      max-width: 100%;
+      background: #FFFFFF;
+      border: none;
+      border-radius: 10px;
+
+      .calendDaysModalMobile{
+
+        .calendDaysThree{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 10px;
+          font-family: 'Montserrat';
+          margin-left: 5px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 17px;
+          width: 100%;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+        .calendDaysNumbersThree{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 5px;
+          margin-left: 3px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 17px;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+        .calendDays{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 10px;
+          margin-left: 15px;
+          margin-right: 15px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 17px;
+          width: 100%;
+          color: #000000;
+        }
+        .calendDaysNumbers{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 5px;
+          margin-left: 3px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 17px;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+
+
+      }
+      .calendMounth{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 16px;
+        margin-left: 14px;
+        display: flex;
+        align-items: center;
+
+        color: #383838;
+      }
+      .changeWeeks{
+        height: 43px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px 10px;
+        margin-top: 19px;
+        background: #F5F4F2;
+        border-radius: 10px;
+      }
+    }
+    .calendBetterText{
+      margin-top: 15px;
+      padding-top: 0px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 550;
+      font-size: 18px;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+
+      color: #4C4C4D;
+
+    }
+    .seeCalendTitleText{
+      position: relative;
+      margin-top: 15px;
+      height: 31px;
+      font-style: normal;
+      font-family: 'Plus Jakarta Sans';
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 25px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.2em;
+
+      color: #393939;
+
+      .closeButton{
+        color: #4C4C4D;
+        font-weight: 700;
+        position: absolute;
+        top: 5px;
+        right: 0px;
+      }
+      span{
+        font-family: 'Montserrat Alternates';
+        padding-top: 2px;
+      }
+    }
+  }
+  .regElemBackground{
+    width: 462px;
+    min-height: 600px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+    .blockTitle{
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 40px;
+      margin-top: 24px;
+      align-items: center;
+      letter-spacing: 0.1em;
+      color: #4C4C4C;
+      position: relative;
+      display: inline-flex;
+      min-width: 200px;
+      padding-bottom: 7px;
+      left: 39px;
+    }
+    .closeButtonReg{
+      color: #4C4C4D;
+      font-weight: 700;
+      position: absolute;
+      top: 30px;
+      right: 20px;
+      width: 33px;
+      height: 27px;
+    }
+  }
+}
+
+
+.modalFavorite{
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .switchImages{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 40px;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    right: 5%;
+    top: -7.25px;
+    letter-spacing: 0.1em;
+    color: #4C4C4C;
+    span{
+      margin-right: 5px;
+      font-size: 13px;
+    }
+  }
+
+  .switchImages-mobile{
+    display: flex;
+    margin-top: -12.5px;
+    margin-right: -25px;
+    flex-direction: column;
+  }
+
+  .searchLastOrder{
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+  }
+
+  .searchLastOrder-mobile{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+  }
+
+
+
+  .openSearchLastOrderItems{
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    width: 422px;
+    margin-left: 150px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: 450px;
+  }
+
+  .openSearchLastOrderItems::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .openSearchLastOrderItems-mobile{
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    width: 100vw;
+    margin-left: -30px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    max-height: calc(100vh - 130px);
+    padding-right: 50px;
+  }
+
+  .openSearchLastOrderItems-mobile::-webkit-scrollbar {
+    width: 0px;
+  }
+
+
+  .seeProfitText{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  input:focus{
+    outline: none;
+  }
+  .profitModal{
+    height: 100%;
+    width: 100%;
+
+    background: #FFFFFF;
+    position: relative;
+    .acceptButtonModal{
+      position: absolute;
+      bottom: 26px;
+      right: 66px;
+      width: 200px;
+      height: 57px;
+      background: #5FC56E;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+    }
+    .calendForModal{
+      padding-right: 0px;
+      padding-left: 0px;
+      height: 200px;
+      margin: 0px auto;
+      max-width: 381px;
+      height: 258px;
+      border: 1px solid #969696;
+      border-radius: 10px;
+      background: #FFFFFF;
+      margin-top: 27px;
+
+      .calendDaysModalMobile{
+
+        .calendDaysThree{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 10px;
+          font-family: 'Montserrat';
+          margin-left: 5px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 17px;
+          width: 100%;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+        .calendDaysNumbersThree{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 5px;
+          margin-left: 3px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 17px;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+        .calendDays{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 10px;
+          margin-left: 15px;
+          margin-right: 15px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 17px;
+          width: 100%;
+          color: #000000;
+        }
+        .calendDaysNumbers{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 5px;
+          margin-left: 3px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 17px;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+
+
+      }
+      .calendMounth{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 16px;
+        margin-left: 14px;
+        display: flex;
+        align-items: center;
+
+        color: #383838;
+      }
+      .changeWeeks{
+        height: 43px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px 10px;
+        margin-top: 19px;
+        background: #F5F4F2;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .calendModalMobile{
+    margin-top: -150px;
+    width: 300px;
+    height: 390px;
+    background: #FFFFFF;
+    padding-left: 22px;
+    padding-right: 23px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    .acceptButton{
+      position: relative;
+      bottom: 0px;
+      width: 245px;
+      height: 50px;
+      background: #5FC56E;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+    }
+    .calendForModal{
+      padding-right: 0px;
+      padding-left: 0px;
+      height: 200px;
+      margin: 0px;
+      max-width: 100%;
+      background: #FFFFFF;
+      border: none;
+      border-radius: 10px;
+
+      .calendDaysModalMobile{
+
+        .calendDaysThree{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 10px;
+          font-family: 'Montserrat';
+          margin-left: 5px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 17px;
+          width: 100%;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+        .calendDaysNumbersThree{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 5px;
+          margin-left: 3px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 17px;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+        .calendDays{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 10px;
+          margin-left: 15px;
+          margin-right: 15px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 17px;
+          width: 100%;
+          color: #000000;
+        }
+        .calendDaysNumbers{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 5px;
+          margin-left: 3px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 17px;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+
+
+      }
+      .calendMounth{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 16px;
+        margin-left: 14px;
+        display: flex;
+        align-items: center;
+
+        color: #383838;
+      }
+      .changeWeeks{
+        height: 43px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px 10px;
+        margin-top: 19px;
+        background: #F5F4F2;
+        border-radius: 10px;
+      }
+    }
+    .calendBetterText{
+      margin-top: 15px;
+      padding-top: 0px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 550;
+      font-size: 18px;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+
+      color: #4C4C4D;
+
+    }
+    .seeCalendTitleText{
+      position: relative;
+      margin-top: 15px;
+      height: 31px;
+      font-style: normal;
+      font-family: 'Plus Jakarta Sans';
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 25px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.2em;
+
+      color: #393939;
+
+      .closeButton{
+        color: #4C4C4D;
+        font-weight: 700;
+        position: absolute;
+        top: 5px;
+        right: 0px;
+      }
+      span{
+        font-family: 'Montserrat Alternates';
+        padding-top: 2px;
+      }
+    }
+  }
+  .regElemBackground{
+    width: 462px;
+    min-height: 600px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+    .blockTitle{
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 40px;
+      margin-top: 24px;
+      align-items: center;
+      letter-spacing: 0.1em;
+      color: #4C4C4C;
+      position: relative;
+      display: inline-flex;
+      min-width: 200px;
+      padding-bottom: 7px;
+      left: 39px;
+    }
+    .closeButtonReg{
+      color: #4C4C4D;
+      font-weight: 700;
+      position: absolute;
+      top: 30px;
+      right: 20px;
+      width: 33px;
+      height: 27px;
+    }
+  }
+}
+
+
+.CalendDefMarket{
+  margin-top: 150px;
+  input:focus{
+    outline: none;
+  }
+  .profitModal{
+    height: 452px;
+    width: 524px;
+    margin-top: 150px;
+    background: #FFFFFF;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    position: relative;
+    .acceptButtonModal{
+      position: absolute;
+      bottom: 26px;
+      right: 66px;
+      width: 200px;
+      height: 57px;
+      background: #5FC56E;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+    }
+    .calendForModal{
+      padding-right: 0px;
+      padding-left: 0px;
+      height: 200px;
+      margin: 0px auto;
+      max-width: 381px;
+      height: 258px;
+      border: 1px solid #969696;
+      border-radius: 10px;
+      background: #FFFFFF;
+      margin-top: 27px;
+
+      .calendDaysModalMobile{
+
+        .calendDaysThree{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 10px;
+          font-family: 'Montserrat';
+          margin-left: 5px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 17px;
+          width: 100%;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+        .calendDaysNumbersThree{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 5px;
+          margin-left: 3px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 17px;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+        .calendDays{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 10px;
+          margin-left: 15px;
+          margin-right: 15px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 17px;
+          width: 100%;
+          color: #000000;
+        }
+        .calendDaysNumbers{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 5px;
+          margin-left: 3px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 17px;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+
+
+      }
+      .calendMounth{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 16px;
+        margin-left: 14px;
+        display: flex;
+        align-items: center;
+
+        color: #383838;
+      }
+      .changeWeeks{
+        height: 43px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px 10px;
+        margin-top: 19px;
+        background: #F5F4F2;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .calendModalMobile{
+    margin-top: -150px;
+    width: 300px;
+    height: 390px;
+    background: #FFFFFF;
+    padding-left: 22px;
+    padding-right: 23px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    .acceptButton{
+      position: relative;
+      bottom: 0px;
+      width: 245px;
+      height: 50px;
+      background: #5FC56E;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+    }
+    .calendForModal{
+      padding-right: 0px;
+      padding-left: 0px;
+      height: 200px;
+      margin: 0px;
+      max-width: 100%;
+      background: #FFFFFF;
+      border: none;
+      border-radius: 10px;
+
+      .calendDaysModalMobile{
+
+        .calendDaysThree{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 10px;
+          font-family: 'Montserrat';
+          margin-left: 5px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 17px;
+          width: 100%;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+        .calendDaysNumbersThree{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 5px;
+          margin-left: 3px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 17px;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+        .calendDays{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 10px;
+          margin-left: 15px;
+          margin-right: 15px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 17px;
+          width: 100%;
+          color: #000000;
+        }
+        .calendDaysNumbers{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 5px;
+          margin-left: 3px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 17px;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+
+
+      }
+      .calendMounth{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 16px;
+        margin-left: 14px;
+        display: flex;
+        align-items: center;
+
+        color: #383838;
+      }
+      .changeWeeks{
+        height: 43px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px 10px;
+        margin-top: 19px;
+        background: #F5F4F2;
+        border-radius: 10px;
+      }
+    }
+    .calendBetterText{
+      margin-top: 15px;
+      padding-top: 0px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 550;
+      font-size: 18px;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+
+      color: #4C4C4D;
+
+    }
+    .seeCalendTitleText{
+      position: relative;
+      margin-top: 15px;
+      height: 31px;
+      font-style: normal;
+      font-family: 'Plus Jakarta Sans';
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 25px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.2em;
+
+      color: #393939;
+
+      .closeButton{
+        color: #4C4C4D;
+        font-weight: 700;
+        position: absolute;
+        top: 5px;
+        right: 0px;
+      }
+      span{
+        font-family: 'Montserrat Alternates';
+        padding-top: 2px;
+      }
+    }
+  }
+  .regElemBackground{
+    width: 462px;
+    min-height: 600px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+    .blockTitle{
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 40px;
+      margin-top: 24px;
+      align-items: center;
+      letter-spacing: 0.1em;
+      color: #4C4C4C;
+      position: relative;
+      display: inline-flex;
+      min-width: 200px;
+      padding-bottom: 7px;
+      left: 39px;
+    }
+    .closeButtonReg{
+      color: #4C4C4D;
+      font-weight: 700;
+      position: absolute;
+      top: 30px;
+      right: 20px;
+      width: 33px;
+      height: 27px;
+    }
+  }
+}
+
+
+.CalendDefMarket-mobile{
+  margin-top: 35px;
+  input:focus{
+    outline: none;
+  }
+  .profitModal{
+    height: 452px;
+    width: 524px;
+    margin-top: 70px;
+    background: #FFFFFF;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    position: relative;
+    .acceptButtonModal{
+      position: absolute;
+      bottom: 26px;
+      right: 66px;
+      width: 200px;
+      height: 57px;
+      background: #5FC56E;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+    }
+    .calendForModal{
+      padding-right: 0px;
+      padding-left: 0px;
+      height: 200px;
+      margin: 0px auto;
+      max-width: 381px;
+      height: 258px;
+      border: 1px solid #969696;
+      border-radius: 10px;
+      background: #FFFFFF;
+      margin-top: 27px;
+
+      .calendDaysModalMobile{
+
+        .calendDaysThree{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 10px;
+          font-family: 'Montserrat';
+          margin-left: 5px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 17px;
+          width: 100%;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+        .calendDaysNumbersThree{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 5px;
+          margin-left: 3px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 17px;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+        .calendDays{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 10px;
+          margin-left: 15px;
+          margin-right: 15px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 17px;
+          width: 100%;
+          color: #000000;
+        }
+        .calendDaysNumbers{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 5px;
+          margin-left: 3px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 17px;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+
+
+      }
+      .calendMounth{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 16px;
+        margin-left: 14px;
+        display: flex;
+        align-items: center;
+
+        color: #383838;
+      }
+      .changeWeeks{
+        height: 43px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px 10px;
+        margin-top: 19px;
+        background: #F5F4F2;
+        border-radius: 10px;
+      }
+    }
+  }
+
+  .calendModalMobile{
+    margin-top: -150px;
+    width: 300px;
+    height: 390px;
+    background: #FFFFFF;
+    padding-left: 22px;
+    padding-right: 23px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    .acceptButton{
+      position: relative;
+      bottom: 0px;
+      width: 245px;
+      height: 50px;
+      background: #5FC56E;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+      letter-spacing: 0.1em;
+      color: #FFFFFF;
+    }
+    .calendForModal{
+      padding-right: 0px;
+      padding-left: 0px;
+      height: 200px;
+      margin: 0px;
+      max-width: 100%;
+      background: #FFFFFF;
+      border: none;
+      border-radius: 10px;
+
+      .calendDaysModalMobile{
+
+        .calendDaysThree{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 10px;
+          font-family: 'Montserrat';
+          margin-left: 5px;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 17px;
+          width: 100%;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+        .calendDaysNumbersThree{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 5px;
+          margin-left: 3px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 17px;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+        .calendDays{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 10px;
+          margin-left: 15px;
+          margin-right: 15px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 10px;
+          line-height: 17px;
+          width: 100%;
+          color: #000000;
+        }
+        .calendDaysNumbers{
+          display: grid;
+          grid-template-columns: repeat(7, 35px);
+          grid-template-rows: 1fr;
+          grid-column-gap: 0px;
+          grid-row-gap: 0px;
+          margin-top: 5px;
+          margin-left: 3px;
+          font-family: 'Montserrat';
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 17px;
+          align-items: center;
+          text-align: center;
+          color: #000000;
+          span{
+            margin-left: 10px;
+          }
+        }
+
+
+      }
+      .calendMounth{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        margin-top: 16px;
+        margin-left: 14px;
+        display: flex;
+        align-items: center;
+
+        color: #383838;
+      }
+      .changeWeeks{
+        height: 43px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0px 10px;
+        margin-top: 19px;
+        background: #F5F4F2;
+        border-radius: 10px;
+      }
+    }
+    .calendBetterText{
+      margin-top: 15px;
+      padding-top: 0px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 550;
+      font-size: 18px;
+      line-height: 21px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+
+      color: #4C4C4D;
+
+    }
+    .seeCalendTitleText{
+      position: relative;
+      margin-top: 15px;
+      height: 31px;
+      font-style: normal;
+      font-family: 'Plus Jakarta Sans';
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 25px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.2em;
+
+      color: #393939;
+
+      .closeButton{
+        color: #4C4C4D;
+        font-weight: 700;
+        position: absolute;
+        top: 5px;
+        right: 0px;
+      }
+      span{
+        font-family: 'Montserrat Alternates';
+        padding-top: 2px;
+      }
+    }
+  }
+  .regElemBackground{
+    width: 462px;
+    min-height: 600px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    position: relative;
+    .blockTitle{
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 40px;
+      margin-top: 24px;
+      align-items: center;
+      letter-spacing: 0.1em;
+      color: #4C4C4C;
+      position: relative;
+      display: inline-flex;
+      min-width: 200px;
+      padding-bottom: 7px;
+      left: 39px;
+    }
+    .closeButtonReg{
+      color: #4C4C4D;
+      font-weight: 700;
+      position: absolute;
+      top: 30px;
+      right: 20px;
+      width: 33px;
+      height: 27px;
+    }
+  }
+}
+
+.profitModal-mobile{
+  height: 475px;
+  width: 450px;
+  background: #FFFFFF;
+  padding-left: 30px;
+  padding-right: 30px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+}
+
+.seeProfitText{
+  position: relative;
+  margin-top: 19px;
+  height: 31px;
+  font-style: normal;
+  font-weight: 600;
+  font-family: 'Plus Jakarta Sans';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2em;
+  color: #393939;
+  .closeButton{
+    color: #4C4C4D;
+    font-weight: 700;
+    position: absolute;
+    top: -5px;
+    right: 0px;
+  }
+}
+
+.seeProfitText-mobile{
+  width: 100%;
+  position: relative;
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  /* identical to box height */
+  .closeButton{
+    color: #4C4C4D;
+    font-weight: 700;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    float: right;
+    display: inline;
+  }
+  letter-spacing: 0.1em;
+  margin-top: 10px;
+  color: #000000;
+}
+
+.profitTable{
+  overflow: auto;
+  height: 210px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.profitTable::-webkit-scrollbar {
+  width: 6px;
+}
+
+.profitTable::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Цвет фона */
+}
+
+.profitTable::-webkit-scrollbar-thumb {
+  background: #DDDDDD; /* Цвет полосы */
+  border-radius: 10px;
+}
+
+
+.profitTableElem{
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1.5fr repeat(4, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.profitProductMiddle, .profitOurPrice, .profitQuantity, .profitProfit{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #4C4C4D;
+}
+
+.profitProductMiddle-mobile, .profitOurPrice-mobile, .profitQuantity-mobile, .profitProfit-mobile{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #4C4C4D;
+}
+
+
+.profitTableElemBorder{
+  border-bottom: 0px solid #9D9D9D;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  display: grid;
+  grid-template-columns: 1.5fr repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  margin-left: 0px;
+  height: 76px;
+  align-items: center;
+  .profitProductName{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .cardElemChange{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 0 auto;
+  }
+  .cardElemChange-mobile{
+    font-size: 10px;
+    max-width: 65px;
+    max-height: 20px;
+    input{
+      max-height: 20px;
+      max-width: 31px;
+      font-size: 10px;
+    }
+  }
+}
+
+
+
+.profitOurPrice, .profitProfit, .profitOurPrice-mobile, .profitProfit-mobile{
+  color: #5FC56E;
+}
+
+
+.profitSize{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+.profitSize-mob{
+  font-size: 14px;
+}
+.profitSize-mobile{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  color: #000000;
+  position: relative;
+}
+
+.profitProductName{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  letter-spacing: 0.1em;
+  color: #4C4C4D;
+}
+
+.lastOrderNameItem{
+  max-width: 300px;
+  overflow: hidden;
+}
+
+.profitProductName-mobile{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90px;
+  letter-spacing: 0.1em;
+  color: #4C4C4D;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+.cardElemChangeProfit{
+  font-family: 'Montserrat';
+  font-style: normal;
+  color: #4C4C4C;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 0px auto;
+  position: relative;
+  width: 66px;
+  height: 21px;
+  font-size: 14px;
+  background: #F5F5F5;
+  border-radius: 32px;
+
+}
+
+
+.cardElemChangeProfit-mobile{
+  font-family: 'Montserrat';
+  font-style: normal;
+  color: #4C4C4C;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  font-size: 10px;
+  min-width: 50px;
+  max-height: 15px;
+  margin-top: 15px;
+  background: #F5F5F5;
+  border-radius: 32px;
+  margin-top: -1px;
+}
+
+
+.imgCardElemProfit{
+  box-sizing: border-box;
+  position: relative;
+  top: -1px;
+  margin-right: 5px;
+  background-size: cover;
+  background-position: center;
+  max-width: 65px;
+  height: 70px;
+}
+
+.imgCardElemProfit-mobile{
+  box-sizing: border-box;
+  position: relative;
+  top: 0px;
+  margin-right: 4px;
+  background-size: cover;
+  background-position: center;
+  width: 40px;
+  height: 40px;
+}
+
+
+.totalProfit{
+  margin: 70px 66px 0px auto;
+  width: 260px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #9D9D9D;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  &Price{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #5FC56E;
+    margin-bottom: -6px;
+  }
+  &Text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #4C4C4D;
+    white-space: nowrap;
+    //padding-top: 10px;
+  }
+}
+
+.profitTableElemLastOrder{
+  grid-template-columns: 1.5fr repeat(2, 1fr);
+}
+
+.repeatOrderButtonFlex{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px auto;
+  align-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.repeatOrderButton{
+  position: relative;
+  cursor: pointer;
+  top: 25px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  height: 50px;
+  width: 400px;
+  border-radius: 10px;
+  background: #5FC56E;
+  font-size: 20px;
+  font-weight: 550;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.repeatOrderButton-mobile{
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto';
+  text-align: center;
+  align-content: center;
+  height: 50px;
+  width: auto;
+  border-radius: 10px;
+  background: #5FC56E;
+  font-size: 16px;
+  font-weight: 550;
+  align-items: center;
+  color: #FFFFFF;
+  margin: 0px 10vw;
+  width: 150px;
+}
+
+.itemsCardFavoriteElem{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  overflow: auto;
+  max-height: 400px;
+}
+
+.itemsCardFavoriteElem-mobile{
+  max-height: 100vh;
+}
+
+.itemsCardFavoriteElem::-webkit-scrollbar {
+  width: 0px;
+}
+
+.profitTableFavorite{
+  height: calc(75vh - 100px);
+}
+.profitTableElemLastOrder-mobile{
+  width: 100%;
+}

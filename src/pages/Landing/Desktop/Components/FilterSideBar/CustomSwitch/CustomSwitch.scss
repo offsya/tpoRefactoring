@@ -1,0 +1,33 @@
+.CustomSwitch{
+  cursor: pointer;
+  input[type="checkbox"] {
+    cursor: pointer;
+    position: relative;
+    width: 45px;
+    height: 24px;
+    -webkit-appearance: none;
+    outline: none;
+    background: #c6c6c6;
+    border-radius: 20px;
+    transition: .5s;
+
+  }
+  input:checked[type="checkbox"]{
+    background: #5FC56E;
+  }
+  input[type="checkbox"]:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 2px;
+    Left: 2px;
+    background: #fff;
+    transition: .5s;
+    transform: scale (1.1);
+  }
+  input:checked[type="checkbox"]:before{
+    left: 22px;
+  }
+}

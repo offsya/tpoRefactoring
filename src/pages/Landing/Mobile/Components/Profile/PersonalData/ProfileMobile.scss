@@ -1,0 +1,88 @@
+.PersonalData-mobile {
+  margin-top: 68px;
+  margin-left: 54px;
+  margin-right: 53px;
+
+  .PersonalDataText {
+    margin-top: 20px;
+    margin-left: -39px;
+    color: #393939;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+
+
+
+
+  }
+
+  .inputBlockPDmobile {
+    margin-top: 23px;
+    width: 100%;
+    .inputTextPDmobile {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+
+      color: #4C4C4C;
+
+    }
+    .PhoneNumber-mobile {
+      display: flex;
+      justify-content: start;
+
+      .ant-select-selector {
+        border: 1px solid #c1c1c1;
+        border-radius: 10px;
+        border-right: none;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        background: rgb(255, 255, 255);
+        height: 43px;
+      }
+
+      :where(.css-dev-only-do-not-override-mxhywb).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover .ant-select-selector {
+        border-color: #9D9D9D;
+        box-shadow: none;
+      }
+
+      .ant-select-selection-item {
+        display: flex;
+      }
+
+      .ant-space-item {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+  }
+  .PersonalDataSave {
+    cursor: pointer;
+    margin-top: 35px;
+    height: 50px;
+    margin-top: 23px;
+    background: #5FC56E;
+    border-radius: 10px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+}

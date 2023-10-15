@@ -1,0 +1,191 @@
+.firstWindow{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  background: #FFFFFF;
+  height: 100vh;
+  .leftSide{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in-out;
+    .textSide{
+      font-size: 20px;
+      transition: font-size 0.3s ease-in-out;
+    }
+    .buttonSide{
+      transform: scale(1);
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+  .leftSide:hover{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F0F0F0;
+    transition: background-color 0.3s ease-in-out;
+    .textSide{
+      font-size: 24px;
+    }
+    .buttonSide{
+      transform: scale(1.05);
+    }
+
+  }
+  .rightSide{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in-out;
+    .textSide{
+      font-size: 20px;
+      transition: font-size 0.3s ease-in-out;
+    }
+    .buttonSide{
+      transform: scale(1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+  }
+  .rightSide:hover{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F0F0F0;
+    transition: background-color 0.3s ease-in-out;
+    .textSide{
+      font-size: 24px;
+    }
+    .buttonSide{
+      transform: scale(1.05);
+    }
+  }
+  .buttonSide{
+    background: #5FC56E;
+    border: 1px solid #9D9D9D;
+    border-radius: 10px;
+    width: 268px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+  .textSide{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+  }
+
+}
+.firstWindowMobile{
+  width: 100vw;
+  background: #FFFFFF;
+  height: 100vh;
+  .leftSide{
+    display: flex;
+    height: calc(50vh + 38.5px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #FFFFFF;
+    border-bottom: 0.45px solid #969696;;
+    transition: background-color 0.3s ease-in-out;
+    .textSide{
+      font-size: 20px;
+      transition: font-size 0.3s ease-in-out;
+      margin-bottom: 50px;
+    }
+    .buttonSide{
+      transform: scale(1);
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+  .rightSide{
+    height: calc(50vh - 38.5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    transition: background-color 0.3s ease-in-out;
+    .textSide{
+      font-size: 20px;
+      margin-bottom: 50px;
+      transition: font-size 0.3s ease-in-out;
+    }
+    .buttonSide{
+      transform: scale(1);
+      transition: transform 0.3s ease-in-out;
+    }
+
+  }
+  .buttonSide{
+    background: #5FC56E;
+    border: 1px solid #9D9D9D;
+    border-radius: 10px;
+    width: 268px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+  }
+  .textSide{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #000000;
+  }
+
+}
+@keyframes currentSide {
+  from {
+    background: #FFFFFF;
+  }
+  to {
+    background: #F0F0F0;
+  }
+}

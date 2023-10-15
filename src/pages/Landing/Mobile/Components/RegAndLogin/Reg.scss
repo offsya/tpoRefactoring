@@ -1,0 +1,651 @@
+.mainRegBlock{
+  width: 372px;
+  margin-left: 45px;
+  margin-right: 45px;
+  position: relative;
+  .inputBlockSignInPC{
+    .inputTextSignInPC{
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      flex-direction: column;
+      letter-spacing: 0.1em;
+      color: #4C4C4C;
+      margin-top: 20px;
+    }
+    .PhoneNumberSignInPC{
+      display: flex;
+      justify-content: start ;
+      .ant-select-selector{
+        border: 1px solid #9D9D9D;
+        border-radius: 10px;
+        border-right: none;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        background: rgb(255, 255, 255);
+        height: 43px;
+      }
+      :where(.css-dev-only-do-not-override-mxhywb).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover .ant-select-selector {
+        border-color: #9D9D9D;
+        box-shadow: none;
+      }
+      .ant-select-selection-item{
+        display: flex;
+      }
+      .ant-space-item{
+        display: flex;
+        align-items: center;
+      }
+      input{
+        background: #FFFFFF;
+        border: 1px solid #9D9D9D;
+        border-radius: 10px;
+        height: 43px;
+        width: 100%;
+        margin-top: 5px;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.1em;
+        padding-left: 12px;
+        color: #969696;
+        border-bottom-left-radius: 0px;
+        border-top-left-radius: 0px;
+        border-left: none;
+      }
+      input:focus{
+        outline: none;
+      }
+      input::placeholder{
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.1em;
+
+        color: #969696;
+
+      }
+    }
+  }
+  .blockEmail{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0.1em;
+    color: #4C4C4C;
+    margin-top: 20px;
+  }
+  .blockRemember{
+    display: flex;
+    justify-content: space-between;
+    height: 26px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    margin-top: 14px;
+    color: #4C4C4C;
+    text-align: center;
+    align-items: center;
+    .forgotText{
+      color: #5FC56D;
+      cursor: pointer;
+    }
+    .rememberText{
+      text-align: center;
+      display: flex;
+      align-items: center;
+      span{
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 26px;
+        height: 26px;
+        background: #FFFFFF;
+        border: 1px solid #9D9D9D;
+        border-radius: 5px;
+        margin-right: 8px;
+        color: #5FC56D;
+        font-size: 32px;
+      }
+    }
+  }
+  .buttonSignIn{
+    cursor: pointer;
+    height: 50px;
+    margin-top: 23px;
+    background: #5FC56E;
+    border-radius: 10px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+
+  }
+  .continueText{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1em;
+    margin-top: 27px;
+    color: #4C4C4C;
+  }
+  .iconsReg{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+  }
+  .bottomButton{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 462px;
+    margin-left: -45px;
+    height: 107px;
+    margin-top: 45px;
+    background: #E8E8E8;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    .regButton{
+      cursor: pointer;
+      width: 160px;
+      height: 50px;
+      margin-left: 36px;
+      margin-top: 20px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+      justify-content: center;
+      color: #5FC56D;
+      background: #FFFFFF;
+      border: 1px solid #5FC56D;
+      border-radius: 10px;
+    }
+    .infoText{
+      font-family: 'Plus Jakarta Sans';
+      margin-top: 10px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+      width: 245px;
+      height: 72.12px;
+      color: #4C4C4C;
+    }
+  }
+  .welcomText{
+    margin-bottom: 44px;
+    margin-top: 32px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #4C4C4C;
+  }
+  .alredyHaveAcc{
+    margin-top: 28px;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: center;
+    .alredyText{
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      margin-right: 5px;
+      /* identical to box height */
+
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+
+      color: #4C4C4C;
+
+    }
+    .signInText{
+      cursor: pointer;
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 18px;
+      /* identical to box height */
+
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+
+      color: #5FC56D;
+
+    }
+  }
+  input{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    padding-left: 12px;
+    color: #969696;
+  }
+  input::placeholder{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #969696;
+  }
+  input:focus{
+    outline: none;
+  }
+}
+
+.reg-mobile{
+
+}
+.reg-mobile {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 9999;
+}
+
+.regContent-mobile {
+  padding-top: 54px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background: #FBFBFB;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  .iconsAndSearch-mobile{
+    height: 54px;
+    display: flex;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    .optionsBack-mobile{
+      position: absolute;
+      left: 10px;
+    }
+  }
+}
+
+.signIn-mobile{
+  margin-left: 54px;
+  margin-right: 53px;
+  .inputBlockSignInMobile{
+    margin-top: 23px;
+    width: 100%;
+    .inputTextSignInMobile {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+
+      color: #4C4C4C;
+
+    }
+    .PhoneNumberSignIn-mobile {
+      display: flex;
+      justify-content: start;
+
+      .ant-select-selector {
+        border: 1px solid #c1c1c1;
+        border-radius: 10px;
+        border-right: none;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        background: rgb(255, 255, 255);
+        height: 43px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .ant-select-selection-item {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img{
+            height: 16px;
+            width: 25px;
+          }
+        }
+      }
+      :where(.css-dev-only-do-not-override-mxhywb).ant-select .ant-select-selection-item {
+        height: 25px;
+        width: 25px;
+      }
+      :where(.css-dev-only-do-not-override-mxhywb).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover .ant-select-selector {
+        border-color: #9D9D9D;
+        box-shadow: none;
+      }
+
+
+
+      .ant-space-item {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+  }
+  .welcomText{
+    font-family: 'Plus Jakarta Sans';
+    white-space: nowrap;
+
+    margin: 0px auto;
+    margin-top: 45px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #4C4C4C;
+  }
+  .titleBlock{
+    margin-top: 20px;
+    margin-left: -30px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #4C4C4C;
+
+  }
+  .inputBlock{
+    margin-top: 23px;
+    width: 100%;
+    .inputTextSignInMobile {
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+
+      color: #4C4C4C;
+
+    }
+    .PhoneNumberSignIn-mobile {
+      display: flex;
+      justify-content: start;
+
+      .ant-select-selector {
+        border: 1px solid #c1c1c1;
+        border-radius: 10px;
+        border-right: none;
+        border-bottom-right-radius: 0px;
+        border-top-right-radius: 0px;
+        background: rgb(255, 255, 255);
+        height: 43px;
+      }
+
+      :where(.css-dev-only-do-not-override-mxhywb).ant-select:not(.ant-select-disabled):not(.ant-select-customize-input):not(.ant-pagination-size-changer):hover .ant-select-selector {
+        border-color: #9D9D9D;
+        box-shadow: none;
+      }
+
+      .ant-select-selection-item {
+        display: flex;
+        img{
+          width: 25px;
+          height: 16px;
+        }
+      }
+
+      .ant-space-item {
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    .checkBoxBlockCreateAcc{
+
+    }
+    .inputText{
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+
+      color: #4C4C4C;
+
+    }
+
+    input:focus{
+      outline: none;
+    }
+    input::placeholder{
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+      color: #969696;
+    }
+  }
+
+  .blockRememberMobile{
+    display: flex;
+    margin-top: 23px;
+    margin-bottom: 35px;
+    justify-content: space-between;
+    height: 26px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    margin-top: 14px;
+    color: #4C4C4C;
+    text-align: center;
+    align-items: center;
+    .forgotText{
+      color: #5FC56D;
+      cursor: pointer;
+    }
+    .rememberText{
+      text-align: center;
+      display: flex;
+      align-items: center;
+      white-space: nowrap;
+      span{
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 26px;
+        height: 26px;
+        background: #FFFFFF;
+        border: 1px solid #9D9D9D;
+        border-radius: 5px;
+        margin-right: 8px;
+        color: #5FC56D;
+        font-size: 32px;
+      }
+    }
+  }
+  .createAccBlockMobile{
+    margin-bottom: -0px;
+  }
+  .buttonSignIn{
+    cursor: pointer;
+    margin-top: 35px;
+    height: 50px;
+    margin-top: 23px;
+    background: #5FC56E;
+    border-radius: 10px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+
+  }
+  .continueText{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.1em;
+    margin-top: 23px;
+    color: #4C4C4C;
+  }
+  .iconsReg{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+  }
+  .bottomButton{
+    position: absolute;
+    width: 100%;
+    margin-left: -54px;
+    display: flex;
+    bottom: 0px;
+    justify-content: space-between;
+    height: 107px;
+    margin-top: 40px;
+    background: #E8E8E8;
+    .regButton{
+      cursor: pointer;
+      width: 160px;
+      height: 50px;
+      margin-left: 14px;
+      margin-top: 28px;
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+      justify-content: center;
+      color: #5FC56D;
+      background: #FFFFFF;
+      border: 1px solid #5FC56D;
+      border-radius: 10px;
+    }
+    .infoText{
+      font-family: 'Plus Jakarta Sans';
+      margin-top: 17px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+      width: 186px;
+      height: 72.12px;
+      color: #4C4C4C;
+    }
+  }
+}
+
+.Mobileinput{
+  width: 320px;
+  height: 45px;
+  borderRadius: 7px;
+  border: 1px solid #C1C1C1;
+  background: #FFF;
+}
+
+//:where(.css-dev-only-do-not-override-mxhywb).ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+//  borderRight: none;
+//  height: 43px;
+//  display: flex;
+//  align-items: center;
+//  margin-top: 0px;
+//}

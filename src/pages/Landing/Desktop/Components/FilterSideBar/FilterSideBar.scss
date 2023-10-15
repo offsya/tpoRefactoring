@@ -1,0 +1,163 @@
+.FilterSideBar{
+  overflow: auto;
+  position: absolute;
+  left: 0;
+  top: 77px;
+  width: 300px;
+  height: 100%;
+
+  z-index: 2;
+  background: #FFF;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  .mainBlockFilterSideBar {
+    margin-left: 23px;
+    .topRowFilterSideBar {
+      display: flex;
+      height: 30px;
+      align-items: center;
+      margin-bottom: 52px;
+
+      .nameTextFilterSideBar {
+        display: flex;
+        position: absolute;
+        right: 33px;
+        top: 18px;
+        color: #000;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2.4px;
+      }
+
+      .closeFilterSideBar {
+        position: absolute;
+        left: 13px;
+        top: 4px;
+        cursor: pointer;
+        transform: rotate(45deg);
+        flex-shrink: 0;
+        color: #000;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2.4px;
+      }
+    }
+
+    .categoriesElemFilterSideBar {
+      margin-top: 30px;
+      .categoriesTextFilterSideBar {
+
+        color: #4C4C4C;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.6px;
+      }
+      .checkboxRowCategoriesFilterSideBar {
+        margin-top: 10px;
+        height: 26px;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        align-items: center;
+
+        .checkboxCategoriesFilterSideBar {
+          cursor: pointer;
+
+          border-radius: 5px;
+          border: 2px solid #E8E8E8;
+          background: #FFF;
+          width: 26px;
+          height: 26px;
+          flex-shrink: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          span{
+            color: #5FC56E;
+            font-size: 20px;
+          }
+        }
+
+        .textCategoriesFilterSideBar {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-left: 10px;
+          color: #4C4C4C;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 1.6px;
+        }
+      }
+
+      .moreButtonCategoriesFilterSideBar {
+        margin-top: 2px;
+        color: #5FC56E;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        cursor: pointer;
+      }
+    }
+
+    .specialOffersFilterSideBar{
+      margin-top: 20px;
+      .SPOTextImageFilterSideBar{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        flex-direction: row;
+        .SPOImgFilterSideBar{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 35px;
+          height: 35px;
+          flex-shrink: 0;
+          border-radius: 50%;
+          background: #EDE870;
+          border: 1px solid #4c4c4c;
+          color: #4C4C4C;
+          text-align: center;
+          font-family: Inter;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 1.4px;
+        }
+        .SPOTextFilterSideBar{
+          margin-left: 5px;
+          color: #4C4C4C;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          letter-spacing: 1.6px;
+
+        }
+      }
+      .toggleButtonFilterSideBar{
+        margin-top: 10px;
+      }
+    }
+
+
+
+  }
+}

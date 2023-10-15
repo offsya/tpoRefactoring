@@ -1,0 +1,252 @@
+.bodyBarSearch-mobileV2{
+  width: 100vw;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  .iconsAndSearch-mobileV2{
+    display: flex;
+    justify-content: space-around;
+    .optionsBack-mobileV2{
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 25px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 0.1em;
+      margin-top: 15px;
+      color: #9D9D9D;
+      .optionsBackArrow-mobileV2{
+        font-size: 12px;
+        margin-right: 4px;
+        margin-top: 1px;
+        font-weight: 500;
+      }
+    }
+    .cartIconBackgroundV2{
+      position: relative;
+      width: 30px;
+      height: 34px;
+      .cartElemQuantityV2{
+        font-family: 'Roboto';
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        padding-left: 1px;
+        line-height: 16px;
+        color: #FFFFFF;
+        top: 0px;
+        right: -5px;
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #F46363;
+        background: #F46363;
+      }
+      .iconCart-mobileV2{
+        color: #5FC56E;
+        width: 30px;
+        height: 34px;
+        font-weight: 700;
+      }
+
+      .userProfile-mobileV2{
+        background: #FFFFFF;
+        width: 34px;
+        height: 34px;
+        border-radius: 30px;
+        margin-top: 1px;
+      }
+
+      .iconCartIsOpen-mobileV2{
+        margin-top: 13px;
+      }
+    }
+    .logoAndText-mobileV2{
+      display: flex;
+      justify-content: center;
+      padding-left: 5px;
+      .logo-mobileV2{
+        background: url("../../../../../assets/logo.svg");
+        background-size: cover;
+        width: 38px;
+        height: 47px;
+        margin-top: 0px;
+      }
+      .logoText-mobileV2{
+        font-family: 'Plus Jakarta Sans';
+        position: relative;
+        font-style: normal;
+        margin-top: 21px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+        color: #5FC56E;
+      }
+    }
+    .logoAndTextCartIsOpen-mobileV2{
+      margin-top: 5px;
+      margin-left: -10px;
+      .logo-mobileV2{
+        background: url("../../../../../assets/logo.svg");
+        background-size: cover;
+        width: 38px;
+        height: 47px;
+        margin-top: 0px;
+      }
+      .logoText-mobileV2{
+        font-family: 'Plus Jakarta Sans';
+        position: relative;
+        font-style: normal;
+        margin-top: 21px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+        color: #5FC56E;
+      }
+    }
+    .iconCartBackground-mobileV2{
+      width: 55px;
+      display: flex;
+      justify-content: center;
+      .cartIconBackgroundV2{
+        position: relative;
+        width: 30px;
+        height: 34px;
+        .cartElemQuantityV2{
+          font-family: 'Roboto';
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          padding-left: 1px;
+          line-height: 16px;
+          color: #FFFFFF;
+          top: 12px;
+          right: -5px;
+          border-radius: 50%;
+          width: 16px;
+          height: 16px;
+          border: 1px solid #F46363;
+          background: #F46363;
+        }
+      }
+    }
+  }
+  .BodybarWithOutSearch-mobileV2{
+    .logoAndText-mobileV2{
+      display: flex;
+      justify-content: center;
+      padding-left: 5px;
+      .logo-mobileV2{
+        background: url("../../../../../assets/logo.svg");
+        background-size: cover;
+        width: 38px;
+        height: 47px;
+        margin-top: 0px;
+      }
+      .logoText-mobileV2{
+        font-family: 'Plus Jakarta Sans';
+        position: relative;
+        font-style: normal;
+        margin-top: 21px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.1em;
+        color: #5FC56E;
+
+      }
+    }
+    .iconsAndSearch-mobileV2{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      .logoAndText-mobileV2{
+        display: flex;
+        justify-content: center;
+        padding-left: 5px;
+        .logo-mobileV2{
+          background: url("../../../../../assets/logo.svg");
+          background-size: cover;
+          width: 38px;
+          height: 47px;
+          margin-top: 0px;
+        }
+        .logoText-mobileV2{
+          font-family: 'Plus Jakarta Sans';
+          position: relative;
+          font-style: normal;
+          margin-top: 21px;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 20px;
+          letter-spacing: 0.1em;
+          color: #5FC56E;
+
+        }
+      }
+      .iconMenu-mobileV2{
+        color: #5FC56E;
+        width: 38px;
+        height: 38px;
+      }
+      .cartIconBackgroundV2{
+        position: relative;
+        width: 30px;
+        height: 34px;
+        .cartElemQuantityV2{
+          font-family: 'Roboto';
+          position: absolute;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          padding-left: 1px;
+          line-height: 16px;
+          color: #FFFFFF;
+          top: 0px;
+          right: -5px;
+          border-radius: 50%;
+          width: 16px;
+          height: 16px;
+          border: 1px solid #F46363;
+          background: #F46363;
+        }
+        .iconCart-mobileV2{
+
+          color: #5FC56E;
+          width: 30px;
+          height: 34px;
+          font-weight: 700;
+
+        }
+        .userProfile-mobileV2{
+          background: #FFFFFF;
+          width: 34px;
+          height: 34px;
+          border-radius: 30px;
+          margin-top: 1px;
+
+        }
+      }
+    }
+
+  }
+}
+

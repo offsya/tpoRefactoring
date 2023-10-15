@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+.containerLand{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.headerLand{
+    height: 750px;
+    width: 100%;
+    background: url("./pages/Land/imagesLand/qwe.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bodyLand{
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    height: 500px;
+}
+.leftSideBarLand{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 6fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    width: 330px;
+}
+.rightSideBarLand{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 6fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+}
+.searchBarLand{
+    margin-left: 88px;
+    width: 337.6px;
+    height: 54.5px;
+    background: #E8E8E8;
+    border-radius: 32px;
+    margin-top: 21px;
+
+}
+
+.allItemsBarLand{
+    background: #E8E8E8;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border-radius: 32px;
+}
+
+.logoLand{
+    background: url("./pages/Land/imagesLand/logo.svg");
+    height: 132px;
+    width: 243px;
+    margin-left: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menuLand{
+    margin-top: 188px;
+    margin-left: 71px;
+    width: 250px;
+}
+.menuLandButton{
+    font-family: 'Montserrat Alternates';
+    font-size: 19.2px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 23px;
+    width: 240px;
+    height: 77px;
+    background: linear-gradient(274.75deg, #F7F7F7 -8.28%, #B2C15C 37.88%);
+    border-radius: 32px;
+    display: flex;
+    color: #FFFFFF;
+}
+.iconHomeLand{
+    width: 77px;
+    height: 77px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #9DC55F;
+    margin-right: 19.2px;
+
+}
+.cartBlockLand{
+    background-color: #FFFFFF;
+    margin-top: 75.2px;
+    margin-right: 56px;
+    margin-left: 12px;
+    border-radius: 32px;
+    width: 337px;
+    height: 73.6px;
+}

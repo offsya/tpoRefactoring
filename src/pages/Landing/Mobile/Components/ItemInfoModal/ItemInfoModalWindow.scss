@@ -1,0 +1,315 @@
+.DeliveryInfoModalWindow{
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0,0,0,0.4);
+  position: fixed;
+  top:0;
+  z-index: 2;
+  left:0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.5s;
+  .mainInfoContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    .DeliveryInfoBlock{
+      display: flex;
+      flex-direction: row;
+      justify-content: left ;
+      align-items: center;
+      color: #4C4C4C;
+      margin-bottom: 20px;
+
+      .UpdatedStockOrNotMobile{
+        margin-right: 10px;
+        padding-left: 3px;
+        padding-right: 3px;
+        height: 20px;
+        border-radius: 7px;
+        border: 1px solid #5FC56E;
+        background: #F5F4F2;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        span{
+          color: #5FC56E;
+          font-family: Inter;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 1.4px;
+        }
+      }
+
+      .UpdatedProductUnit{
+        height: 20px;
+        margin-right: 10px;
+        padding-left: 3px;
+        padding-right: 3px;
+        border-radius: 7px;
+        border: 1px solid #5FC56E;
+        background: #F5F4F2;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        span{
+          color: #5FC56E;
+          font-family: Inter;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 1.4px;
+        }
+      }
+      .UpdatedStockOrNot{
+        margin-right: 10px;
+        padding-left: 3px;
+        padding-right: 3px;
+        height: 20px;
+        border-radius: 7px;
+        border: 1px solid #5FC56E;
+        background: #F5F4F2;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        span{
+          color: #5FC56E;
+          font-family: Inter;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 1.4px;
+        }
+      }
+      .UpdatedDaysLeft{
+        margin-right: 10px;
+        padding-left: 3px;
+        padding-right: 3px;
+        height: 20px;
+        border-radius: 7px;
+        border: 1px solid #407BFF;
+        background: #F5F4F2;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        span{
+          color: #407BFF;
+          font-family: Inter;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 1.4px;
+        }
+      }
+      .UpdatedTBC{
+        margin-right: 10px;
+        padding-left: 3px;
+        padding-right: 3px;
+        height: 20px;
+        border-radius: 7px;
+        border: 1px solid #FFC727;
+        background: #F5F4F2;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        span{
+          color: #FFC727;
+          font-family: Inter;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 1.4px;
+        }
+
+      }
+
+
+      .WeightImg{
+        margin-right: 10px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border: 1px solid #5FC56E;
+        background-color: #5FC56E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        span{
+          color: white;
+          font-family: Inter;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 1px;
+        }
+      }
+
+      .NotificationImg{
+        margin-right: 10px;
+
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        .notificationBlockImg{
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          border: 1px solid #FF725E;
+          background-color: #FF725E;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      .DaysImg{
+        margin-right: 10px;
+
+        width: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .daysBlockImg{
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          border: 1px solid #407BFF;
+          background-color: #407BFF;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #FFF;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 1.6px;
+        }
+        .daysBlockText{
+          color: #4C4C4C;
+          font-family: Inter;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 1px;
+        }
+      }
+      .SPOImg{
+        margin-right: 10px;
+
+        width: 35px;
+        height: 35px;
+        background: #EDE870;
+        border-radius: 50%;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span{
+          color: #4C4C4C;
+          font-family: Inter;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 1.4px;
+        }
+      }
+      .TBCImg{
+        margin-right: 10px;
+
+        width: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .TBCblockImg{
+          width: 35px;
+          height: 35px;
+          border-radius: 50%;
+          border: 1px solid #FFC727;
+          background-color: #FFC727;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .TBCblockText{
+          color: #4C4C4C;
+          font-family: Inter;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 1px;
+        }
+      }
+      .stockImg{
+        margin-right: 10px;
+
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        border: 1px solid #5FC56E;
+        background-color: #5FC56E;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        span{
+          margin-top: -3px;
+          color: #FFF;
+          font-family: Inter;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          letter-spacing: 1px;
+        }
+      }
+      .DeliveryInfoText{
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.6px;
+      }
+    }
+  }
+
+}
+.DeliveryInfoModalWindow.active{
+  opacity: 1;
+  pointer-events: all;
+}
+.DeliveryInfoModalWindow_content{
+
+  padding: 20px;
+  border-radius: 12px;
+  background-color: white;
+  transform: scale(0.5);
+  transition: 0.4s all;
+  width: 360px;
+  height: 380px;
+  display: flex;
+  flex-direction: row;
+}
+
+.DeliveryInfoModalWindow_content.active{
+  transform:scale(1);
+}

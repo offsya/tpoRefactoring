@@ -1,0 +1,64 @@
+.menuClassAdmin{
+  width: 16%;
+  height: 100vh;
+  background: #007A6F;
+  text-align: start;
+  display: flex;
+  justify-content: center;
+  .menuClassCenter{
+    margin: 0px auto;
+    padding-top: 15px;
+    .logoTextMenuAdmin{
+      display: inline;
+      font-family: 'Plus Jakarta Sans';
+      font-style: normal;
+      font-weight: 800;
+      font-size: 24px;
+      line-height: 30px;
+      display: flex;
+      letter-spacing: 0.1em;
+      width: 100%;
+      color: #FFFFFF;
+      span{
+        display: inline;
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0.1em;
+        color: #014F48;
+      }
+    }
+    .menuButtonApps{
+      margin-top: 27px;
+      margin-bottom: 84px;
+      width: 181px;
+    }
+    .menuButtonsConteiner{
+      width: 181px;
+      display: flex;
+      flex-direction: column;
+      text-align: start;
+    }
+    .menuButtonSignOut{
+      position: absolute;
+      bottom: 50px;
+    }
+  }
+  .menuButtonsDifferentApps{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+    .menuButtonsDifferentAppsElem{
+      margin-top: 10px;
+      margin-left: 0px;
+    }
+    .menuButtonsDifferentAppsElem:hover{
+      color: #014F48;
+    }
+  }
+}

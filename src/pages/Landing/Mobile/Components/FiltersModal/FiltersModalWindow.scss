@@ -1,0 +1,138 @@
+.FiltersMW{
+  width: 100vw;
+  height: calc(100% + 100px);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background: #FFF;
+  .FiltersMWTopRow{
+    height: 60px;
+    background: #5FC56E;
+    //border-top-left-radius: 10px;
+    //border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    .FMWTag{
+      color: #FFF;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 2px;
+    }
+    .FMWReset{
+      color: #E8E8E8;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 1.6px;
+    }
+    .FMWClose{
+      color: #fff;
+      width: 30px;
+    }
+  }
+  .FiltersMWMain{
+    position: absolute;
+    left: 14px;
+    height: 100%;
+    .FMWPrice{
+      margin-top: 30px;
+      span{
+        color: #4C4C4C;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        span{
+          font-weight: 400;
+        }
+      }
+      .FMWPriceSlider{
+        margin-top: 11px;
+        width: 300px;
+        height: 60px;
+        border-radius: 7px;
+        border: 1px solid #E8E8E8;
+        display: flex;
+        flex-direction: row;
+        .FMWPriceSliderLeft{
+          width: 150px;
+          height: 60px;
+          span{
+            position: relative;
+            left: 10px;
+            top: 2px;
+            color: #4C4C4C;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.4px;
+          }
+        }
+        .FMWPriceSliderSeparator{
+          width: 1px;
+          height: 59px;
+          flex-shrink: 0;
+          background: #E8E8E8;
+        }
+        .FMWPriceSliderRight{
+          width: 150px;
+          height: 60px;
+          span{
+            position: relative;
+            left: 8px;
+            top: 2px;
+            color: #4C4C4C;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.4px;
+          }
+        }
+      }
+      .FWMSlider{
+        width: 260px;
+        position: relative;
+        left: 20px;
+        top:-17px;
+
+      }
+    }
+    .FMWSpo{
+      span{
+        color: #4C4C4C;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 1.6px;
+      }
+      .FMWToggle{
+        margin-top: 18px;
+      }
+    }
+    .FMWCategories{
+      margin-top: 30px;
+      color: #4C4C4C;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      letter-spacing: 1.6px;
+    }
+  }
+}

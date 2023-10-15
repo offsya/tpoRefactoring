@@ -1,0 +1,51 @@
+/* Reset and base styles  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.LandingApp{
+    margin: 0px auto;
+    //max-width: 1600px;
+}
+
+
+
+body{
+    -moz-user-select: auto;
+    -khtml-user-select: auto;
+    user-select: auto;
+    font-family: 'Montserrat Alternates';
+    letter-spacing: 0.1em;
+}
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Цвет фона */
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #DDDDDD; /* Цвет полосы */
+    border-radius: 10px;
+}
+//@media (max-width: 1400px){
+//    .LandingApp{
+//        max-width: 1400px;
+//    }
+//}
+//@media (max-width: 800px){
+//    .LandingApp{
+//        max-width: 800px;
+//    }
+//}

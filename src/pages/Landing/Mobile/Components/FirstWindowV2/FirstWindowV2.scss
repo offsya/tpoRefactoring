@@ -1,0 +1,524 @@
+.firstWindowV2{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  .buttonSave{
+    width: 100px;
+    height: 50px;
+    color: black;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: 0px auto;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .buttonSave:hover{
+    background: #9D9D9D;
+    border-radius: 20px;
+  }
+  .leftS{
+    background: #fbfbfb;
+
+    height: 100vh;
+    width: 55vw;
+    padding-top: 10px;
+    position: relative;
+    overflow: hidden;
+    .leftSLogo{
+      position: relative;
+      z-index: 100;
+      background: url("../../../../../assets/logo.svg");
+      background-size: cover;
+      width: 60px;
+      margin: 0px auto;
+      position: relative;
+      left: -80px;
+      .logoText{
+        font-family: 'Plus Jakarta Sans';
+        position: relative;
+        left: 50px;
+        padding-top: 45px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 0.1em;
+        color: #5FC56E;
+        width: 200px;
+        display: block;
+        height: 100%;
+        z-index: 100;
+      }
+
+    }
+    .leftSText{
+      position: relative;
+      margin-top: 36px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      textarea{
+        color: #5FC56E;
+        background: #fbfbfb;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 4px;
+      }
+      z-index: 101;
+
+    }
+    .leftSImage{
+      background: url("../../../../../assets/mainImage.svg");
+      background-size: cover;
+      width: auto;
+      height: 100vh;
+      position: relative;
+      left: 0px;
+      bottom: 150px;
+      z-index: 1;
+    }
+  }
+  .rightS{
+
+    height: 100vh;
+    width: 45vw;
+    background: #53D966;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    .rightSNavBar{
+      position: absolute;
+      width: 100%;
+      top: 36px;
+      display: flex;
+      justify-content: center;
+      grid-gap: 15px;
+      .rightSNavBarText{
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.6px;
+      }
+      .rightSNavBarText:hover{
+        color: #9D9D9D80;
+      }
+    }
+    .circleElemsBlock{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 80px;
+      .circleElem{
+        width: 150px;
+        height: 150px;
+        flex-shrink: 0;
+        background: #5FC56E;
+        border-radius: 50%;
+        img{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 150px;
+          height: 150px;
+        }
+        textarea{
+          color: #FFF;
+          background: #53D966;
+          text-align: center;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          top: 10px;
+          width: 150px;
+          font-family: Inter;
+        }
+      }
+    }
+
+    .rightSbuttonTwo{
+      font-family: Inter;
+      width: 49%;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #FFF;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 3.2px;
+      border-radius: 100px;
+      border: 1px solid #FFF;
+      background: #53D966;
+      margin-top: 50px;
+    }
+    .rightSbuttonTwo:hover{
+      border-radius: 100px;
+      color: #5FC56E;
+
+      background: #FFF;
+    }
+    .rightSbuttonLeft{
+      color: #53D966;
+      border: 1px solid #53D966;
+      background: #FFF;
+    }
+    .rightSbuttonLeft:hover{
+      color: #FFF;
+      border: 1px solid #FFF;
+
+      background: #53D966;
+    }
+
+    .rightSbuttonsBlock{
+      display: flex;
+      justify-content: space-evenly;
+      .rightSbutton{
+        font-family: Inter;
+        width: 49%;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3.2px;
+        border-radius: 100px;
+        border: 1px solid #FFF;
+        background: #53D966;
+        margin-top: 150px;
+      }
+      .rightSbutton:hover{
+        border-radius: 100px;
+        color: #5FC56E;
+
+        background: #FFF;
+      }
+      .rightSbuttonLeft{
+        color: #53D966;
+        border: 1px solid #53D966;
+        background: #FFF;
+      }
+      .rightSbuttonLeft:hover{
+        color: #FFF;
+        border: 1px solid #FFF;
+
+        background: #53D966;
+      }
+    }
+    .rightSWindowSmart{
+      padding-left: 32px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      textarea{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 3.6px;
+        background: #53D966;
+        width: 100%;
+      }
+    }
+    .rightSpointsBlock{
+      padding-left: 32px;
+      textarea{
+        background: #53D966;
+        height: 100%;
+        width: 100%;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 2px;
+        height: 100px;
+      }
+      span{
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 2px;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        border: 1px solid #FFF;
+        margin-right: 18px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 2px;
+      }
+      div{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 15px;
+        textarea{
+          color: #FFF;
+          font-family: Inter;
+          font-size: 28px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          letter-spacing: 2.8px;
+          background: #53D966;
+          width: 100%;
+          height: 40px;
+
+        }
+      }
+
+    }
+  }
+}
+
+.firstWindowV2-mobile{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  .rightS{
+
+    height: 100vh;
+    width: 100vw;
+    background: #53D966;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    .rightSNavBar{
+      position: absolute;
+      width: 100%;
+      top: 36px;
+      display: flex;
+      justify-content: center;
+      grid-gap: 15px;
+      .rightSNavBarText{
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.6px;
+      }
+      .rightSNavBarText:hover{
+        color: #9D9D9D80;
+      }
+    }
+    .circleElemsBlock{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 80px;
+      .circleElem{
+        width: 100px;
+        height: 100px;
+        flex-shrink: 0;
+        background: #5FC56E;
+        border-radius: 50%;
+        img{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100px;
+          height: 100px;
+        }
+        .textDiv{
+          color: #FFF;
+          background: #53D966;
+          text-align: center;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          top: 10px;
+          font-family: Inter;
+        }
+      }
+    }
+
+    .rightSbuttonTwo{
+      font-family: Inter;
+      width: 49%;
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #FFF;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 3.2px;
+      border-radius: 100px;
+      border: 1px solid #FFF;
+      background: #53D966;
+      margin-top: 50px;
+    }
+    .rightSbuttonTwo:hover{
+      border-radius: 100px;
+      color: #5FC56E;
+
+      background: #FFF;
+    }
+    .rightSbuttonLeft{
+      color: #53D966;
+      border: 1px solid #53D966;
+      background: #FFF;
+    }
+    .rightSbuttonLeft:hover{
+      color: #FFF;
+      border: 1px solid #FFF;
+
+      background: #53D966;
+    }
+
+    .rightSbuttonsBlock{
+      display: flex;
+      justify-content: space-evenly;
+
+      .rightSbutton{
+        font-family: Inter;
+        width: 49%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2.8px;
+        border-radius: 100px;
+        border: 1px solid #FFF;
+        background: #53D966;
+        margin-top: 150px;
+      }
+      .rightSbutton:hover{
+        border-radius: 100px;
+        color: #5FC56E;
+
+        background: #FFF;
+      }
+
+      .rightSbuttonLeft{
+        color: #53D966;
+        border: 1px solid #53D966;
+        background: #FFF;
+      }
+      .rightSbuttonLeft:hover{
+        color: #FFF;
+        border: 1px solid #FFF;
+
+        background: #53D966;
+      }
+
+    }
+    .rightSWindowSmart{
+      padding-left: 32px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      .textDiv{
+        color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 3.6px;
+        background: #53D966;
+      }
+    }
+    .rightSpointsBlock{
+      margin-bottom: 5px;
+      padding-left: 32px;
+      .textDiv{
+        background: #53D966;
+        width: 100%;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 2px;
+      }
+      span{
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: 2px;
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+        border: 1px solid #FFF;
+        margin-right: 18px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-left: 2px;
+      }
+      div{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .textDiv{
+          color: #FFF;
+          font-family: Inter;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          letter-spacing: 2.8px;
+          background: #53D966;
+          width: 100%;
+
+        }
+      }
+
+    }
+  }
+}

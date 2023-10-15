@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap');
+.card{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    text-align: center;
+    padding-left: 15px;
+    justify-content: space-evenly;
+    font-family: 'Montserrat Alternates';
+    align-items: center;
+    width: 350px;
+    margin-left: -20px;
+    height: 64px;
+    background: #FFFFFF;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: 19px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cardOptions{
+    display: flex;
+    font-family: 'Montserrat Alternates';
+    align-items: center;
+    width: 320px;
+    height: 64px;
+    background: #F5F4F2;
+    color: #969696;
+    border-radius: 30px;
+    padding-left: 70px;
+    margin-top: 6px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cardImg{
+    background-size: cover;
+    height: 24px;
+    width: 24px;
+    color: #FFFFFF;
+    background-repeat: no-repeat;
+}
+
+.openCardImg{
+    height: 30px;
+    width: 180px;
+    position: relative;
+    border-radius: 10px;
+    color: #969696;
+    font-size: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    span{
+        color: #4C4C4C;
+        font-weight: 500;
+    }
+}
+
+
+.openCardImgOptions{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    border-radius: 40px;
+    left: 160px;
+    bottom: 0px;
+    color: #969696;
+}
+
+.cardImgBackground{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5FC56E;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 32px;
+    .cartElemQuantity{
+        font-family: 'Roboto';
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        padding-left: 1px;
+        line-height: 16px;
+        color: #FFFFFF;
+        top: 0px;
+        right: -5px;
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #F46363;
+        background: #F46363;
+    }
+}
+
+
+.cardImgBackgroundOptions{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5FC56E;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 32px;
+    left: -130px;
+    .cartElemQuantity{
+        font-family: 'Roboto';
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        padding-left: 1px;
+        line-height: 16px;
+        color: #FFFFFF;
+        top: 0px;
+        right: -5px;
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #F46363;
+        background: #F46363;
+    }
+}
+
+.optionsCardOpen{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5FC56E;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: 32px;
+    top: 17.5px;
+    left: 15px;
+    .cartElemQuantity{
+        font-family: 'Roboto';
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        padding-left: 1px;
+        line-height: 16px;
+        color: #FFFFFF;
+        top: 0px;
+        right: -5px;
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #F46363;
+        background: #F46363;
+    }
+}
+
+
+.optionsCardOpenSearchBar{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #5FC56E;
+    width: 40px;
+    height: 40px;
+    border-radius: 32px;
+    top: 17.5px;
+    right: 20px;
+    .cartElemQuantity{
+        font-family: 'Roboto';
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        padding-left: 1px;
+        line-height: 16px;
+        color: #FFFFFF;
+        top: 0px;
+        right: -5px;
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+        border: 1px solid #F46363;
+        background: #F46363;
+    }
+}
+
+
+.openCard{
+    width: 350px;
+    margin-left: -20px;
+    background-color: white;
+    height: auto;
+    position: relative;
+    top: 2px;
+    min-height: 400px;
+    max-height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.cardProfile{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.openCardEmpty{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    .emptyCartImg{
+        margin-top: -75px;
+        height: 122px;
+        width: 122px;
+    }
+    .emptyCartText{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 38px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.1em;
+
+        color: #EEEEEE;
+    }
+}
+
+
+.openCardOptions{
+    width: 320px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    max-height: 400px;
+    top: 0px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+//.seeOptionsCardBackgroundOptionsCart{
+//    width: 320px;
+//    height: 20px;
+//    background: #FFFFFF;
+//    border-bottom-right-radius: 30px;
+//    border-bottom-left-radius: 30px;
+//    display: flex;
+//    position: absolute;
+//    top: 400px;
+//    justify-content: space-around;
+//    flex-direction: column;
+//    align-items: center;
+//}
+
+.openCard::-webkit-scrollbar {
+    width: 4px;
+}
+.openCardOptions::-webkit-scrollbar {
+    width: 0px;
+}
+
+.openCard::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Цвет фона */
+}
+
+.openCard::-webkit-scrollbar-thumb {
+    background: #DDDDDD; /* Цвет полосы */
+    border-radius: 10px;
+}
+
+.openCard-mobile::-webkit-scrollbar {
+    width: 6px;
+}
+
+.openCard-mobile::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Цвет фона */
+}
+
+.openCard-mobile::-webkit-scrollbar-thumb {
+    background: #DDDDDD; /* Цвет полосы */
+    border-radius: 10px;
+}
+
+.openCard-mobile{
+    width: 100%;
+    background-color: white;
+    position: relative;
+    height: 80vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.seeOptionsCard{
+    font-family: 'Roboto';
+    position: relative;
+    width: 230px;
+    height: 50px;
+    border-radius: 10px;
+    background: #5FC56E;
+    font-size: 20px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    top: 10px;
+}
+
+.seeOptionsCardBackground{
+    cursor: pointer;
+    position: relative;
+    top: -43px;
+    height: 75px;
+    width: 350px;
+    margin-left: -20px;
+    background: #FFFFFF;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.seeOptionsCard-mobile{
+    font-family: 'Roboto';
+    position: relative;
+    width: 230px;
+    height: 50px;
+    border-radius: 10px;
+    background: #5FC56E;
+    font-size: 20px;
+    font-weight: 550;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+
+.seeOptionsCardBackground-mobile{
+    width: 100%;
+    height: 115px;
+    background: #FFFFFF;
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 4px 3px rgba(0, 0, 0, 0.25);
+
+}
+
+
+.switchMode-mobile{
+    display: flex;
+    position: relative;
+    top: 0px;
+    margin-left: 15px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    align-items: center;
+    letter-spacing: 0.1em;
+    color: #4C4C4C;
+    span{
+        margin-right: 5px;
+        font-size: 13px;
+    }
+}
+
+
+
+.seeOptionsCardTotalMoney-mobile{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #4C4C4C;
+}
+
+.seeOptionsCardTotalMoneyText-mobile{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+
+    color: #4C4C4C;
+}

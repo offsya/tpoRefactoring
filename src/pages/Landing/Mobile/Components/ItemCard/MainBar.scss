@@ -1,0 +1,551 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@700&display=swap');
+.mainBar{
+    position: relative;
+    background: #F5F5F5;
+    height: calc(100vh - 97px);
+
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+
+    border-bottom-left-radius: 0px;
+    padding-bottom: 0px;
+    top: 97px;
+}
+
+@media (max-width: 1400px){
+    .mainBar{
+        height: calc(100vh + 97px);
+    }
+}
+
+
+.infoLine{
+    margin-left: -15px;
+    font-family: 'Montserrat Alternates';
+    font-size: 32px;
+    color: black;
+    padding-top: 24px;
+    padding-left: 55px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    .filtersButtons{
+        display: flex;
+        flex-direction: row;
+        .mainFilter{
+            cursor: pointer;
+            border-radius: 7px;
+            background: #E8E8E8;
+            width: 76px;
+            height: 39px;
+            flex-shrink: 0;
+            color: #4C4C4C;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .otherFiltersButtons{
+            margin-left: 30px;
+            border-radius: 7px;
+            width: 401px;
+            height: 40px;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+
+            .filterByPopularity{
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 138px;
+                height: 39px;
+                flex-shrink: 0;
+                border-radius: 7px;
+                background: #5FC56D;
+                color: #FFF;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 1.6px;
+            }
+            .filterByPrice{
+                cursor: pointer;
+                margin-left: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 92px;
+                height: 39px;
+                flex-shrink: 0;
+                border-radius: 7px;
+                background: #5FC56D;
+                color: #FFF;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 1.6px;
+            }
+            .filterAlphabetically{
+                cursor: pointer;
+                margin-left: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 146px;
+                height: 39px;
+                flex-shrink: 0;
+                border-radius: 7px;
+                background: #5FC56D;
+                color: #FFF;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 1.6px;
+            }
+        }
+    }
+}
+
+.itemsCard{
+    padding-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    overflow: auto;
+    max-height: calc(100vh - 160px);
+    max-width: 850px;
+}
+
+@media (max-width: 1400px){
+    .itemsCard{
+        justify-content: space-around;
+    }
+    .mainBar{
+        height: calc(100vh + -100px);
+    }
+}
+
+.itemsCard-mobile{
+    padding-top: 0px;
+    background: #ffffff;
+    //display: flex;
+    //justify-content: flex-start;
+    //grid-gap: 10px;
+    //flex-grow: 2;
+    //flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    overflow: auto;
+    height: calc(100vh - 90px);
+    max-width: 100vw;
+    padding-right: 5px;
+    padding-left: 15px;
+}
+
+.itemsCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    width: 400px;
+}
+
+.itemsCard::-webkit-scrollbar {
+    width: 0px;
+}
+
+.itemsCard::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Цвет фона */
+}
+
+.itemsCard::-webkit-scrollbar-thumb {
+    background: #DDDDDD; /* Цвет полосы */
+    border-radius: 10px;
+}
+
+.itemCardBar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+.itemsCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+
+@media (max-width: 1400px){
+    .itemsCart{
+        display: none;
+    }
+}
+
+.upperInfo{
+    z-index: 2;
+    position: fixed;
+    width: 100vw;
+    height: 70vh;
+    background: #FFFFFF;
+    bottom: 0px;
+    box-shadow: 3px 0px 6px rgba(0, 0, 0, 0.25);
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    .upperInfoCloseButton{
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 30px;
+        height: 30px;
+        border-radius: 40px;
+        background: #E8E8E8;
+        color: #FFFFFF;
+        top: 15px;
+        position: absolute;
+        right: 20px;
+
+        .buttonMoreIcon{
+            font-weight: 700;
+            font-size: 22px;
+        }
+    }
+
+    .upperInfoImg{
+
+        .arrowLeftImage{
+            position: absolute;
+            top: 120px;
+            left: 10px;
+            font-size: 24px;
+        }
+        .arrowRightImage{
+            position: absolute;
+            top: 120px;
+            right: 10px;
+            font-size: 24px;
+        }
+        margin-top: 15px;
+        display: flex;
+        justify-content: center;
+        img{
+            height: 250px;
+        }
+        width: 100%;
+
+    }
+    .upperInfoName{
+        color: #343434;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1.6px;
+        display: flex;
+        justify-content: space-between;
+        margin: 15px;
+        span{
+            color: #9A9A9A;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 1.4px;
+        }
+    }
+    .upperInfoBlocks{
+        display: flex;
+        width: 60%;
+        justify-content: center;
+        margin: 0px auto;
+        grid-gap: 20px;
+        img{
+
+            height: 150px;
+            background: #EFEFEF;
+        }
+        img:hover{
+            box-shadow: 0px 0px 10px black;
+            border-radius: 30px;
+            padding: 5px;
+        }
+
+    }
+    .upperInfoTexts{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 15px;
+        z-index: 102;
+        div{
+            height: 15px;
+            color: #343434;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 1.4px;
+            margin-bottom: 15px;
+        }
+    }
+    .upperInfoPriceAndAdd{
+        display: flex;
+        z-index: 102;
+        position: relative;
+        justify-content: space-between;
+        box-shadow: 0px -2px 8px rgba(0, 0, 0, 0.25);
+        width: 100vw;
+        padding: 0px 15px;
+        height: 100px;
+        align-items: center;
+        bottom: 10px;
+        .upperInfoPrice{
+            color: #5FC56D;
+            height: 50px;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 1.8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .upperInfoAddToCart{
+            width: auto;
+            height: 40px;
+            border-radius: 10px;
+            background: #5FC56E;
+            color: #FFF;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            display: flex;
+            justify-content: center;
+            letter-spacing: 1.8px;
+            align-items: center;
+
+        }
+    }
+}
+
+
+.upperInfoOpenAnim{
+    animation: upperInfoOpen 0.5s forwards;
+}
+.upperInfoOpenCloseAnim{
+    animation: upperInfoOpenClose 0.5s forwards;
+}
+
+
+@keyframes upperInfoOpen {
+    from {
+        height: 0vh;
+    }
+    to {
+        height: 70vh;
+    }
+}
+
+@keyframes upperInfoOpenClose {
+    from {
+        height: 70vh;
+    }
+    to {
+        height: 0vh;
+    }
+}
+
+
+.upperInfoOpenAnimBottomElem{
+    animation: upperInfoOpenBottomElem 0.5s forwards;
+}
+.upperInfoOpenCloseAnimBottomElem{
+    animation: upperInfoOpenCloseBottomElem 0.1s forwards;
+}
+
+@keyframes upperInfoOpenBottomElem {
+    from {
+        height: 0px;
+        display: none;
+    }
+    to {
+        display: flex;
+        height: 100px;
+    }
+}
+
+@keyframes upperInfoOpenCloseBottomElem {
+    from {
+        height: 100px;
+        display: flex;
+    }
+    to {
+        height: 0px;
+        display: none;
+    }
+}
+
+.FilterAndSearchMenu{
+    display: flex;
+    flex-direction: column;
+    .FilterAndSearch{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 54px;
+        grid-gap: 10px;
+        padding: 10px;
+        .FilterInMenu{
+            display: inline-flex;
+            height: 40px;
+            width: 100px;
+            justify-content: center;
+            align-items: center;
+            flex-shrink: 0;
+            border-radius: 7px;
+            background: #E8E8E8;
+            span{
+                color: #4C4C4C;
+                font-family: Inter;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 1.6px;
+            }
+        }
+        .search-mobileV2{
+            width: 100%;
+            height: 40px;
+            margin-bottom: 7px;
+            .searchInput-mobileV2{
+                width: 100%;
+                height: 40px;
+                border-radius: 10px;
+                text-align: left;
+                padding-left: 26px;
+                background: #E8E8E8;
+                color: #4C4C4D;
+                letter-spacing: 0.1em;
+                font-family: 'Roboto';
+                font-weight: 300;
+                font-size: 14px;
+            }
+
+
+            .searchInput-mobileV2::placeholder{
+                color: #C2C2C2;
+                letter-spacing: 0.1em;
+                font-family: 'Roboto';
+                font-weight: 300;
+                font-size: 14px;
+            }
+
+            .searchInput-mobileV2:focus{
+                border-radius: 10px;
+                outline: none;
+            }
+
+            .searchIcon-mobileV2-2{
+                background: url("../../../../../assets/closeButton.svg");
+                width: 20px;
+                height: 20px;
+                background-size: cover;
+                position: relative;
+                top:-29px;
+                right: 8px;
+                float: right;
+            }
+            .searchIcon-mobileV2{
+                background: url("../../../../../assets/searchIcon-mobile.svg");
+                width: 20px;
+                height: 20px;
+                background-size: cover;
+                position: relative;
+                top:-29px;
+                right: 5px;
+                float: right;
+            }
+        }
+    }
+    .OtherFilters{
+        overflow: auto;
+        display: flex;
+        flex-direction: row;
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 0px 10px;
+        justify-content: space-between;
+        .FilterMenuByPopularity{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 7px;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.6px;
+        }
+        .FilterMenuByPrice{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 7px;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.6px;
+        }
+        .FilterMenuAlphabet{
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 7px;
+            font-family: Inter;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 1.6px;
+            width: 30%;
+        }
+    }
+}

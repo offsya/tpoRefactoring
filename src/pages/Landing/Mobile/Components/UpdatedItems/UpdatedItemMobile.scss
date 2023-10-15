@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Roboto:wght@400;500&display=swap');
+
+.UpdatedItemCard-mobile{
+  height: 300px;
+  width: 90%;
+  max-width: 200px;
+  min-width: 160px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 18px auto 0px;
+  .UpdatedTopRowImgFavoriteMobile{
+    height: 30px;
+    .UpdatedSpoSignMobile{
+      width: 60px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-top-left-radius: 10px;
+      background: #EDE870;
+      span{
+        color: #4C4C4C;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1.4px;
+      }
+    }
+    .UpdatedFavoriteIconV2Mobile{
+      position: absolute;
+      top: 12px;
+      right: 20px;
+      font-size: 22px;
+      color: #5FC56E;
+    }
+
+
+  }
+  .UpdatedImgCardBackgroundMobile{
+    height: 100px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .UpdatedImgCardMobile{
+      background-size: cover;
+      background-position: center;
+      height: 100px;
+
+
+    }
+  }
+  .UpdatedItemInfoMobile{
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 22px;
+    .UpdatedNameCardMobile{
+      width: 95%;
+      text-orientation: upright;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+
+      color: #4C4C4C;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      letter-spacing: 1.6px;
+    }
+  }
+  .UpdatedOtherInfoMobile{
+    height: 50px;
+    width: 100%;
+    min-width: 168px;
+    margin-left: 2px;
+    display: flex;
+    align-items: flex-start;
+    align-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    .UpdatedProductUnitMobile{
+      height: 20px;
+      margin-right: 10px;
+      padding-left: 3px;
+      padding-right: 3px;
+      border-radius: 7px;
+      border: 1px solid #5FC56E;
+      background: #F5F4F2;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+      span{
+        color: #5FC56E;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.4px;
+      }
+    }
+    .UpdatedStockOrNotMobile{
+      margin-right: 10px;
+      padding-left: 3px;
+      padding-right: 3px;
+      height: 20px;
+      border-radius: 7px;
+      border: 1px solid #5FC56E;
+      background: #F5F4F2;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      span{
+        color: #5FC56E;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.4px;
+      }
+    }
+    .UpdatedDaysLeftMobile{
+      margin-right: 10px;
+      padding-left: 3px;
+      padding-right: 3px;
+      height: 20px;
+      border-radius: 7px;
+      border: 1px solid #407BFF;
+      background: #F5F4F2;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      span{
+        color: #407BFF;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.4px;
+      }
+    }
+    .UpdatedTBCMobile{
+      margin-right: 10px;
+      padding-left: 3px;
+      padding-right: 3px;
+      height: 20px;
+      border-radius: 7px;
+      border: 1px solid #FFC727;
+      background: #F5F4F2;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      span{
+        color: #FFC727;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.4px;
+      }
+
+    }
+  }
+  .UpdatedPriceAndButtonMobile{
+    height: 30px ;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    .UpdatedMiddlePriceCurrentMobile{
+      color: #4C4C4C;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      letter-spacing: 1.6px;
+      .UpdatedMiddlePriceCurrentKgMobile{
+        color: #4C4C4C;
+        font-family: Inter;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 1.2px;
+      }
+    }
+
+    .UpdatedButtonMoreMobile{
+      cursor: pointer;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      border-radius: 40px;
+      background: #5FC56E;
+      color: #FFFFFF;
+
+      .buttonMoreIconMobile{
+        font-weight: 700;
+        font-size: 22px;
+      }
+      .flipMobile{
+        animation: flip-front 0.5s forwards;
+      }
+      .flipBackMobile{
+        animation: flip-back 0.5s forwards;
+      }
+    }
+    .UpdatedCardElemChangeDefMarketMobile{
+      cursor: pointer;
+      font-family: 'Montserrat';
+      font-style: normal;
+      color: #4C4C4C;
+      font-weight: 400;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 100%;
+      height: 31.2px;
+      font-size: 14px;
+      border: 0px solid #9D9D9D;
+      position: relative;
+      box-sizing: border-box;
+      font-family: 'Roboto';
+      background: #F5F4F2;
+      border-radius: 10px;
+      input{
+        width: auto;
+        background: #F5F4F2;
+        text-align: center;
+        max-width: 51px;
+        height: 21px;
+        border: 0px solid #9D9D9D;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+        color: #4C4C4C;
+      }
+      input:focus{
+        outline: none;
+      }
+      input::-webkit-outer-spin-button,
+      input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+      }
+    }
+  }
+
+}

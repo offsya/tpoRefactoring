@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+.bodyBar{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.bodyBar-mobile{
+
+}
+
+.menuBar{
+    width: 221px;
+    margin-left: 57px;
+    margin-right: 32px;
+    margin-top: 163px;
+}
+
+.calend{
+    background-size: cover;
+    height: 240px;
+    margin-left: -40px;
+    margin-bottom: 7px;
+    background: #FFFFFF;
+    border: 0.5px solid #969696;
+    border-radius: 10px;
+    width: 283px;
+}
+
+
+.calendDef{
+    background-size: cover;
+    margin-left: -90px;
+    margin-bottom: 7px;
+    background: #FFFFFF;
+    border: 0.5px solid #969696;
+    border-radius: 10px;
+    width: 381px;
+    height: 258px;
+    .calendDaysNumbersDef{
+        margin-left: 15px;
+    }
+    .calendDaysThreeDef{
+        margin-left: 10px;
+    }
+}
+
+.calendMain{
+    z-index: 99;
+    position: absolute;
+    background-size: cover;
+    height: 199px;
+    left: 10px;
+    top: 60px;
+    background: #FFFFFF;
+    border: 0.5px solid #969696;
+    border-radius: 10px;
+    width: 283px;
+}
+
+.changeWeeks{
+    height: 43px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 10px;
+    margin-top: 12px;
+    background: #F5F4F2;
+    border-radius: 10px;
+}
+
+.changeWeekButton{
+    height: 37px;
+    margin: 5px;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #969696;
+    border-radius: 10px;
+}
+
+.calendMounth{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    margin-top: 5px;
+    margin-left: 14px;
+    display: flex;
+    align-items: center;
+
+    color: #383838;
+}
+
+.calendDays{
+    display: grid;
+    grid-template-columns: repeat(7, 50.5px);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 17px;
+    width: 100%;
+    color: #000000;
+}
+
+.calendDaysDelivery{
+    display: flex;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    justify-content: flex-start;
+    line-height: 17px;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 100%;
+    color: #000000;
+    span{
+        margin-right: 7.5px;
+        margin-left: 7.5px;
+    }
+}
+.calendDaysThreeMobile{
+    display: grid;
+    grid-template-columns: repeat(7, 38px);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 17px;
+    width: 100%;
+    color: #000000;
+    span{
+        margin-left: 10px;
+    }
+}
+.calendDaysThree{
+    display: grid;
+    grid-template-columns: repeat(7, 50.5px);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    margin-left: 5px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 17px;
+    width: 100%;
+    color: #000000;
+    span{
+        margin-left: 10px;
+    }
+}
+
+.calendDaysThreeDelivery{
+    display: flex;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    justify-content: flex-start;
+    line-height: 17px;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 100%;
+    color: #000000;
+    span{
+        margin-right: 7.5px;
+        margin-left: 7.5px;
+    }
+}
+.calendDaysNumbersThreeMobile{
+    display: grid;
+    grid-template-columns: repeat(7, 38px);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 5px;
+    margin-left: 3px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    span{
+        margin-left: 10px;
+    }
+}
+.calendDaysNumbers{
+    display: grid;
+    grid-template-columns: repeat(7, 51px);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 5px;
+    margin-left: 3px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    span{
+        margin-left: 10px;
+    }
+}
+
+.calendDaysNumbersDelivery{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    span{
+        text-align: center;
+    }
+}
+
+.calendDaysNumbersThree{
+    display: grid;
+    grid-template-columns: repeat(7, 51px);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 5px;
+    margin-left: 3px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    span{
+        margin-left: 10px;
+    }
+}
+
+.calendDaysNumbersThreeDelivery{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 5px;
+    margin-right: 8px;
+    margin-left: 7.5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    span{
+        margin-right: 7.5px;
+        margin-left: 7.5px;
+    }
+}
+
+.seeCalendTitleText{
+    position: relative;
+    margin-top: 19px;
+    height: 31px;
+    font-style: normal;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2em;
+    color: #393939;
+    .closeButton{
+        color: #4C4C4D;
+        font-weight: 700;
+        position: absolute;
+        top: -5px;
+        right: 0px;
+    }
+    span{
+        font-family: 'Montserrat Alternates';
+        padding-top: 4px;
+    }
+}
+
+.calendBetterText{
+    font-family: 'Roboto';
+    font-style: normal;
+    margin-top: 7px;
+    padding-top: 10px;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    max-width: 282px;
+    letter-spacing: 0.1em;
+    color: #4C4C4D;
+}
+
+.calendForModal{
+    margin: 0px auto;
+    margin-top: 27px;
+    margin-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 214px;
+    height: 258px;
+    background: #FFFFFF;
+    border: 1px solid #969696;
+    border-radius: 10px;
+}
+
+.acceptButton{
+    position: relative;
+    bottom: 0px;
+    width: 200px;
+    height: 57px;
+    background: #5FC56E;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin: 0px auto;
+}
+
+.menuButton{
+    font-family: 'Plus Jakarta Sans';
+    color: #4C4C4C;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    width: 190px;
+    height: 40px;
+    margin-bottom: 13px;
+    border: 0px solid #E8E8E8;
+    white-space: nowrap;
+
+}
+
+.menuButton-mobile{
+    font-family: 'Montserrat Alternates';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    background: none;
+    color: #FFFFFF;
+}
+
+
+.currentMenuIcon{
+    width: 25px;
+    height: 25px;
+    margin-left: 19px;
+    margin-right: 14px;
+    margin-top: 5px;
+}
+
+.SamplesSubButtonBack{
+    position: relative;
+    top: -10px;
+    left: 60px;
+    .SamplesSubButton:hover{
+        color: #5fc56d;
+    }
+    .SamplesSubButton{
+        width: 190px;
+        height: 40px;
+        background: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        justify-content: flex-start;
+        font-family: 'Plus Jakarta Sans';
+        color: #4C4C4C;
+        display: flex;
+        align-items: center;
+        border-radius: 40px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 0.1em;
+        margin-top: -10px;
+        span{
+            margin-right: 2px;
+            position: relative;
+            top: 2.5px;
+
+        }
+        span:hover{
+            color: red;
+        }
+    }
+}
+
+.SamplesSubButtonBack-mobile{
+    position: relative;
+    top: -2.5px;
+    left: 55px;
+    .SamplesSubButton-mobile{
+        width: 190px;
+        height: 40px;
+        background: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+        justify-content: flex-start;
+        font-family: 'Plus Jakarta Sans';
+        color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        border-radius: 40px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 25px;
+        letter-spacing: 0.1em;
+    }
+}
+
+
+.currentMenuIcon-mobile{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.calenSpanElem{
+    width: 23px;
+    height: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px;
+    text-align: center;
+    padding-left: 2px;
+}
+
+.langLandingBodyBar{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 221px;
+    height: 164px;
+    border: 0.5px solid #969696;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    margin-top: -14px;
+    border-top: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: -10px;
+    margin-right: 10px;
+    .langElem{
+        margin-bottom: 10px;
+        width: 75px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 30px;
+        background: #FFFFFF;
+        border-radius: 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 19px;
+        letter-spacing: 0.1em;
+        color: #4C4C4C;
+    }
+}
+
+.lang-mobile{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    border: 0.5px solid #FFFFFF;
+    padding: 20px;
+    border-radius: 7px;
+    .langElem{
+        width: 135px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        color: #FFFFFF;
+        border-radius: 10px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.1em;
+    }
+}
+
+
+
+.langOpen{
+    border: 0.5px solid #969696;
+    border-bottom: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    z-index: 99;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: -10px;
+    margin-right: 10px;
+}

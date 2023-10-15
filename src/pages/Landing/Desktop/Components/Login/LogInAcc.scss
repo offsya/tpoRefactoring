@@ -1,0 +1,486 @@
+.LogInAcc{
+  width: 100vw;
+  height: 100vh;
+  .LogInAcc_NavBar{
+    width: 100vw;
+    height: 60px;
+    flex-shrink: 0;
+    background: #F1F1F1;
+    .LogInAcc_Logo{
+      position: absolute;
+      width: 139px;
+      left: 25px;
+      color: #007A6F;
+      font-size: 18px;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 1.8px;
+      .leftSLogo{
+        position: relative;
+        z-index: 100;
+        background: url('../../../components/Login/logo.svg');
+        background-size: cover;
+        width: 54px;
+        margin: 0px auto;
+        margin-top: -2px;
+        position: relative;
+        left: -55px;
+        .logoText{
+          font-family: 'Plus Jakarta Sans';
+          position: relative;
+          left: 50px;
+          padding-top: 38px;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 14px;
+          letter-spacing: 0.1em;
+          color: #5FC56E;
+          width: 200px;
+          display: block;
+          height: 100%;
+          z-index: 100;
+        }
+
+      }
+      span{
+        color: #06C1B0;
+      }
+    }
+  }
+  .LogInAcc_Main{
+    width: 100vw;
+    height: calc(100vh - 60px);
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .arrowBack{
+      position: absolute;
+      top: 70px;
+      left: 25px;
+      font-size: 32px;
+    }
+    .RecoverPassBlock{
+      width: 400px;
+      height: 18px;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 20px;
+      .RecoverPassBlockText{
+        margin-right: 10px;
+        display: flex;
+        height: 18px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #333;
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 1.6px;
+      }
+      .RecoverPassBlockLink{
+        display: flex;
+        height: 18px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        color: #06C0B0;
+        font-family: Plus Jakarta Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 1.6px;
+      }
+      .RecoverPassBlockLink:hover{
+        cursor: pointer;
+        text-decoration: underline;
+        text-underline-offset: 4px;
+      }
+    }
+    .LogInAcc_Main_BottomBlock{
+      width: 360px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      .ButtonGoogle{
+        width: 120px;
+        height: 40px;
+        flex-shrink: 0;
+        border-radius: 3px;
+        border: 1px solid #C1C1C1;
+        background: #FFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+        .ButtonGoogleIcon{
+          width: 28px;
+          height: 28px;
+          flex-shrink: 0;
+          margin-right: 10px;
+        }
+        .ButtonGoogleText{
+          color: #000;
+          font-family: Inter;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 300;
+          line-height: normal;
+          letter-spacing: 1.2px;
+        }
+      }
+    }
+    .LogInAcc_Main_MiddleBlock{
+      display: flex;
+      width: 700px;
+      justify-content: space-between;
+      align-items: center;
+      .LineSpan{
+        width: 240px;
+        height: 1.5px;
+        background: #C0C0C0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .LineText{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #333;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        letter-spacing: 1.6px;
+      }
+    }
+    .LogInAcc_Main_UpperBlock{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 40px;
+      .LogInAcc_Text{
+        color: #333;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-bottom: 40px;
+        letter-spacing: 1px;
+      }
+      .InputBox{
+        margin-bottom: 20px;
+        .InputTitleText{
+          color: #333;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin-bottom: 5px;
+        }
+      }
+      .RememberMeBlock{
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 15px;
+        .RememberMeBlock_Check{
+          min-width: 26px;
+          min-height: 26px;
+          flex-shrink: 0;
+          border-radius: 5px;
+          border: 1px solid #C0C0C0;
+          background: #FFF;
+          font-weight: bold;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #06C0B0;
+          margin-right: 8px;
+        }
+        .RememberMeBlock_Text{
+          display: flex;
+          width: 128px;
+          height: 18px;
+          flex-direction: column;
+          justify-content: center;
+          flex-shrink: 0;
+          color: #4C4C4C;
+          font-family: Inter;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          letter-spacing: 1.6px;
+        }
+      }
+      .ContinueButton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 360px;
+        height: 50px;
+        flex-shrink: 0;
+        border-radius: 7px;
+        background: #06C0B0;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+      }
+    }
+
+  }
+}
+
+.FinalAcc{
+  width: 450px;
+  height: 588px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  border: 2px solid #06C0B0;
+  background: #FFF;
+  box-shadow: -7px 8px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .FinalAcc_Skip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    marign: 0px auto;
+    .skip_warn{
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      align-content: center;
+      marign: 0px auto;
+      width: 400px;
+      height: 201px;
+      flex-shrink: 0;
+      border-radius: 7px;
+      background: #FFF;
+    }
+    .skip_warn_Text{
+      color: #000;
+      text-align: center;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: normal;
+      color: #000;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+    }
+    .skip_warn_Button{
+      display: flex;
+      margin-top: 10px;
+
+      margin-bottom: 4px;
+      align-content: center;
+      align-items: center;
+      justify-content: center;
+      width: 174px;
+      height: 42px;
+      flex-shrink: 0;
+      border-radius: 7px;
+      background: #06C0B0;
+      color: #FFF;
+      text-align: center;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .skip_warn_Check{
+      width: 100%;
+      //margin: 0px auto;
+      padding-top: 5px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+    }
+  }
+  .FinalAcc_Box{
+    width: 400px;
+    margin: 0px auto;
+    .FinalAcc_Text{
+      margin-top: 30px;
+      height: 21px;
+      flex-shrink: 0;
+      color: #06C0B0;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+    .FinalAcc_1Step{
+      margin-top: 30px;
+      height: 21px;
+      flex-shrink: 0;
+      color: #333;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: normal;
+      margin-bottom: 16px;
+    }
+    .SelectBox{
+      width: 360px;
+      height: 40px;
+      flex-shrink: 0;
+    }
+    .FinalAcc_Location_Text{
+      color: #333;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .InputBlock{
+      margin-top: 10px;
+      margin-bottom: 6px;
+    }
+    .ManyService{
+      display: flex;
+      justify-content: space-evenly;
+      width: 400px;
+      margin-bottom: 35px;
+    }
+    .ContinueButton{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+      height: 50px;
+      flex-shrink: 0;
+      border-radius: 7px;
+      background: #06C0B0;
+      color: #FFF;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .RememberMeBlock{
+      display: flex;
+      width: 400px;
+      justify-content: flex-start;
+      align-items: center;
+      margin-bottom: 15px;
+      .RememberMeBlock_Check{
+        min-width: 26px;
+        min-height: 26px;
+        flex-shrink: 0;
+        border-radius: 5px;
+        border: 1px solid #C0C0C0;
+        background: #FFF;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #06C0B0;
+        margin-right: 8px;
+      }
+
+      .RememberMeBlock_Text{
+        display: flex;
+        height: 18px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #C3C3C3;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.6px;
+      }
+    }
+
+    .FinalAcc_1Step_Skip{
+      color: #06C0B0;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-align: center;
+      margin-top: 10px;
+    }
+    .FinalAcc_1Step_Skip:hover{
+      cursor: pointer;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+    }
+  }
+}
+.RememberMeBlock{
+  display: flex;
+  width: 400px;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+  .RememberMeBlock_Check{
+    min-width: 26px;
+    min-height: 26px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #C0C0C0;
+    background: #FFF;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #06C0B0;
+    margin-right: 8px;
+  }
+
+  .RememberMeBlock_Text{
+    display: flex;
+    height: 18px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #C3C3C3;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.6px;
+  }
+}

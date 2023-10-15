@@ -1,0 +1,176 @@
+body{
+  background-color: white; /*#f0a976*/
+}
+
+.navbr{
+  display: flex;
+  justify-content: space-around;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.block{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.fl{
+  display: flex;
+  justify-content: center;
+}
+
+.fll{
+  display: flex;
+  flex-direction: column;
+}
+
+.select{
+  display: flex;
+  flex-direction: column;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.option{
+  width: 100%;
+  background: none;
+  appearance: none;
+  border: 1px solid #ececec;
+  border-radius: 4px;
+  outline: none;
+  text-align: center;
+}
+
+.option:hover{
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px 1px gray;
+  color: black;
+}
+
+.text{
+  font-size: 24px
+}
+
+.input::-webkit-outer-spin-button,
+.input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input{
+  appearance: none;
+  width: 200px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 4px;
+  outline: none;
+  text-align: center;
+}
+
+.input:hover{
+  border: 2px solid black;
+  box-shadow: 0px 0px 10px 1px gray;
+  color: black;
+}
+.input:focus{
+  box-shadow: 0px 0px 10px 1px black;
+}
+
+.but{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin: 5%;
+  cursor: pointer;
+}
+.dragBox{
+  width: 100%;
+  min-height: 150px;
+}
+.drop-ar{
+  min-height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+.drop-area{
+  min-height: 150px;
+  border: 1px dashed black;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addItemButtonModal1{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 47.25px;
+  text-align: center;
+  width: 200px;
+  height: 25px;
+  background: coral;
+  opacity: 0.8;
+  border: none;
+}
+.addItemButtonModal1:focus{
+  background: lightgreen;
+}
+
+.createItemButtonModal1{
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 75px;
+  text-align: center;
+  width: 200px;
+  height: 25px;
+  background: coral;
+  opacity: 0.8;
+  border: none;
+}
+
+
+

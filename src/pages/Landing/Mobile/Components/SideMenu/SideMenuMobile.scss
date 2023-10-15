@@ -1,0 +1,26 @@
+.SideMenuMobile {
+  background: #5FC56E;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .SideMenuButtons {
+
+    display: flex;
+    flex-direction: column;
+    span{
+      margin-bottom: 30px;
+      font-family: "Montserrat Alternates";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 29px;
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.1em;
+      background: none;
+      color: #FFFFFF;
+
+    }
+  }
+}
